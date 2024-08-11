@@ -825,7 +825,7 @@ i.fa.fa-times:hover {
         <!-- 메인화면 끝 -->
 
 
-            <!-- 폴더 열기 "1" -->
+        <!-- 폴더 열기 "1" -->
 
         <div class="overlay-computer" id="overlay-computer" data-id="1" onmousedown="initializeDragEvents('1')">
             <div class="fluid-container">
@@ -1907,6 +1907,409 @@ i.fa.fa-times:hover {
                 <div class="fived-row-win"></div>
             </div>
             <div class="resizer" onmousedown="initDrag(event, '30')"></div>
+        </div>
+
+        <!--쓰레기통 윈도우창-->
+
+        <!-- 책   -->
+
+        
+        <div class="overlay-computer" id="overlay-computer" data-id="31" onmousedown="initializeDragEvents('31')" onclick="recreateText()">
+            <div class="fluid-container">
+                <div class="fluid-container">
+                    <div class="first-row-win" id="first-row-win">
+                        <div class="left">
+                            <img src="./img/28.png" width="17" height="17" style="margin-left: 5px;" alt="파일2">
+                            <!-- 왼쪽 여백 추가 -->
+                            <div class="separator2"></div> <!-- 구분선 1 -->
+                            <img src="./img/2.png" width="17" height="17" style="margin-right: 5px;" alt="복사">
+                            <img src="./img/3.png" width="17" height="17" alt="붙여넣기">
+                            <div class="separator2"></div> <!-- 구분선 2 -->
+                            <span>책</span>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <i class="fa fa-window-minimize" onclick="closeopencom('31')"></i>
+                        <i class="fa fa-window-restore" onclick="returnCom('31')" id="returncam31"
+                            style="display:none;"></i>
+                        <i class="fa fa-window-maximize" onclick="uperCom('31')" id="upercam31"></i>
+                        <i class="fa fa-times" onclick="closecom('31')"></i>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+                <div class="third-row-win">
+                    <div class="col-xs-2">
+                        <i class="fa fa-long-arrow-left"></i>
+                        <i class="fa fa-long-arrow-right"></i>
+                        <i class="fa fa-chevron-down"></i>
+                    </div>
+                    <div class="col-xs-7">
+                        <div class="path-input">
+                            <img src="https://cdn-icons-png.flaticon.com/128/300/300221.png" width="15" height="15" style="margin-right: 5px;" alt="복사">
+                            http://localhost:3000/
+                        </div>
+                        <i class="fa fa-repeat path-icon-1"></i>
+                        <i class="path-icon-2">|</i>
+                    </div>
+                    <div class="col-xs-3">
+                        <input class="search-input" type="text" placeholder="Search">
+                        <i class="fa fa-search path-icon-1"></i>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="fourd-row-win">
+                    <div class="col-xs-9 ">
+                        <div class="row main-folders">
+
+                            <div class="search-container">
+                                
+                                <b>책</b>
+
+                                <hr>
+
+                                <p><img src="https://i.namu.wiki/i/Ef2kIqJIBtrnc0RXOeY0GhfAK-xvCoTzUDSgBKiViSsNZmQksroejHC9_26S9c23PKFeyixg-DC1rE3M4Zlk5v_rlOp669Cqs9o6D8p6xRRMlVPh4kRyEZeT6f_ytNxE_fI0RLY-EjCCrk6IpYh3E0f7jVPs-hJ-QfuzCiPX9jE.webp" width="450" height="300" style="margin-right: 5px;" ></p>
+
+                                <p><b>개요</b>&nbsp;&nbsp;&nbsp;&nbsp;책은 텍스트(문자)나 이미지(사진, 그림)등을 인쇄하여 철한 매체이며, 이걸 읽는 걸 독서라고 한다</p>
+                
+                            </div>
+
+                            <hr>
+                             <p><b>특징</b></p>
+                             <p>과학에서는 각종 세미나나 논문 등 자료를 모았을 때 책이 된다. 소설이나 수필, 시집 같은 경우에도 연재나 각 매체에 기고한 내용을 정리하여</p>
+                             <p>책으로 낸다. 그래서 정보나 자료, 창작물이 완결된 형태를 띠는 지점으로 통한다.</p>
+                             <p>&nbsp;</p>
+                             <p>책은 수많은 사람들의 경험과 사상 등이 집약된 지식의 산물, 지식이 농축되고 정제된 엑기스이므로, 간접 경험이나 통찰력에 큰도움을 주며 인격형성에 기여한다.</p>
+                             <p>또한 책은 영상 매체처럼 구체적인 정보를 전해 주지 않아 이미지 또는 동작을 글자로 된 정보를 통해 유추해야 하므로 상상력의 발달에도 기여한다.</p>
+                             <p>제대로 된 책이라면 사고 과정을 거친 완결된 지식 체계를 구축하게 되어 있으므로 다양한 책을 읽는 일을 통해 다양한 사고방식에도 눈을 뜨게 된다.</p>
+                             <p>&nbsp;</p>
+                             <p>때문에 기원전부터 두루두루 지식인들의 책에 대한 예찬은 끊이지 않았다. 현재는 방식이 디지털로 다소 바뀌었을 뿐, 사실 책의 가치는</p>
+                             <p>정보와 지식을 얻는 것 이기에 굳이 종이로 된 책에 집착할 필요는 없다. 지금 이글을 읽는 것도 비록 전문적이진 않으나 남이 작성한 지식들을 읽는 것이다.</p>
+                             <p>월드 와이드 웹과 하이퍼링크로 점철된 인터넷 세상은 사실 과거 사람들이 보면 경악할 정도로 거대한 정보와 지식의 도서관이다.</p>
+                             <p>&nbsp;</p>
+                             <p>종이책의 가치는 점점 떨어져 가고 있다. 굳이 복잡한 과정을 겪어 책으로 낼 정도의 정보와 지식을 제공하려는 저자의 의도가 있기에 종이책은</p>
+                             <p>과거 인터넷 정보보다 절대적인 우위를 유지하고 있다는 지론도 있었다. 다만 정보화 기술의 발달로 이제 인터넷은 본격적인 도서관과</p>
+                             <p>서점이 되어가고 있으며, 심지어 이젠 인터넷으로 충분히 검증된 논문 및 논문 잡지를 게시하거나 읽거나 사는 시대까지 접했다. </p>
+                             <p>즉 책은 그 목적상 종이에 국한될 필요가 없고, 앞으로 그러면 안 되며, 이젠 그럴 수도 없다.</p>
+                             <p>&nbsp;</p>
+                             <p>현대에는 전자 기기와 영상 매체가 발달하여 책의 인기가 떨어졌으며, 갈수록 독서량은 부족해지고 있다. 읽는 게 좋지만 본업에 시간이 쫓겨 못 읽는 경우도 많다.</p>
+                             <p>또한 휴대해야 한다는 점 때문에 불편감을 느끼는 사람들도 있다. 휴대폰 등 전자 기기의 활성화로 종이책은 예전보다 잘 안 읽게 된다.</p>
+                             <p>그래도 종이로 된 매체는 전자 매체보다 가독성이 좋으며 웬만해서는 파손도 잘 안 되고 싸다는 장점으로 유지되고 있다.</p>
+                             <p>&nbsp;</p>
+                             <p>반면 텍스트화되어야 더 짧아지는 경우도 있으니 책이 반드시 구시대적 산물이라고 할 수는 없다.</p>
+                             <p>대표적으로 과학, 수학을 비롯한 이과 분야는 일반적으로 영상 매체 등의 타 매체보다 한 권의 책이 훨씬 더 깊은 이해를 제공한다.</p>
+                            <hr>
+
+
+                            <p><b>역사</b></p>
+                            <p>현재는 보통 집장본, 코덱스를 떠올리지만, 이전에는 두루마리가 있었다.</p>
+                            <p>보통 책이라고 하면 종이로 된 책을 떠올린다. 그러나 고대에는 종이가 존재하지 않았기 때문에 책의 생김새는 현대와 달랐다.</p>
+                            <p>서양과 오리엔트 지역에서는 파피루스나 양피지 등의 대체재가 있었으나 비효율적이었고, 유럽 대학교에서는 납판이나 양피지를 썼지만 이마저도 부유층만이 가능했다.</p>
+                            <p>탈라스 전투 이후 중동 이슬람 세계에 들어온 종이는 긴 세월을 거쳐 유럽에 보급되었고, 이는 큰 환영을 받아 많은 곳에 종이 공장이 생겼다.</p>
+                            <p>아바스 왕조의 칼리파 알 마문은 그리스어에서 아랍어로 번역된 책의 무게에 따라 번역가에게 금화를 주었다고 한다. </p>
+                            <p>따라서 9세기 바그다드와 서아시아 일대에서는 미친 듯이 책을 번역하고 출판하게 되었으며,</p>
+                            <p>이는 이슬람 세계와 서유럽이 마주하던 시칠리아와 스페인 등을 통해 유럽 세계로 전해져 재번역 되었고 문예 부흥, 즉 르네상스의 밑거름이 되었다.</p>
+                            <p>다만 그럼에도 책이 비싼 것은 여전해서 필사에 의존하였다.</p>
+                            <p>&nbsp;</p>
+                            <p>15세기 활판 인쇄술이 보급되고 르네상스로 인한 고전에 대한 욕구가 반영되면서 책의 수량은 폭증하였고 지식 보급 또한 빠르게 이루어졌다.</p>
+                            <p>21세기 무렵부턴 데이터 형식의 전자책이 등장하여 전자책 단말기나 태블릿 등으로도 독서가 가능하다.</p>
+                           <hr>
+
+                           <p><b>위험성</b></p>
+                           <p>주먹이나 총, 칼과 같은 물리적인 폭력과 대비되는 이성과 지식의 상징으로 여겨지지만, 역설적으로 지식의 보고이자 이를 전달하는 매체라는 점에서 폭력성을 전할 수 있다.</p>
+                           <p>이는 책 또한 사람이 쓰기 때문에 그 사람이 품은 사상적인 위험성, 폭력 등이 충분히 내재될 수 있고, 이것이 활자를 통해 다른 사람에게 전달될 수 있기 때문이다.</p>
+                           <p>대표적으로 ██ ██ █████ ███ █████ ███ ██ ██ ███ 있으며 만일 이러한 서적이 출판사의 편집부나 독자와 같은 여론의 지적이나 거부 등의 자정 작용 없이 무절제하게 확산한다면 돌이킬 수 없는 파란을 몰고 올 수도 있다.</p>
+                           <p>또한 유사 과학서, 유사 역사학서 등의 책들로부터 잘못된 정보를 얻거나, 음모론 서적 등을 읽고 잘못된 지식과 가치관을 가지게 될 수도 있다.</p>
+                           <p>&nbsp;</p>
+                           <p>아무리 나에게 악행을 저지르지 않는 책이라지만 내용이 해로우면 그런 책은 읽지도 말자.</p>
+                           <p>&nbsp;</p>
+                           <p>책의 저자가 전문성 있고 사상적으로 논란을 일으킨 적 있는지, 학술적인 내용을 다룬다면 자료의 출처가 정확한지 확인하고 책의 내용도 가능하면 비판적 태도를 가지고 읽는 것이 좋다.</p>
+                           <p>이는 이슬람 세계와 서유럽이 마주하던 시칠리아와 스페인 등을 통해 유럽 세계로 전해져 재번역 되었고 문예 부흥, 즉 르네상스의 밑거름이 되었다.</p>
+                           <p>다만 그럼에도 책이 비싼 것은 여전해서 필사에 의존하였다.</p>
+                           <p>&nbsp;</p>
+                           <p>15세기 활판 인쇄술이 보급되고 르네상스로 인한 고전에 대한 욕구가 반영되면서 책의 수량은 폭증하였고 지식 보급 또한 빠르게 이루어졌다.</p>
+                           <p>21세기 무렵부턴 데이터 형식의 전자책이 등장하여 전자책 단말기나 태블릿 등으로도 독서가 가능하다.</p>
+                          <hr>
+
+
+                                <!-- 
+                                <button id="a" class="search-button" onclick="saveToCookie('Book Barn')">Book Barn</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('Three-Squares Mall')">Three-Squares Mall</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('책')">책</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('특별한 책')">특별한 책</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('Whodathunkit')">Whodathunkit</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('특별 행사')">특별 행사</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('Hope of the Pridelands')">Hope of the Pridelands</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('Miss Auburn')">Miss Auburn</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('특별한 사인회')">특별한 사인회</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('Miss Auburn')">Miss Auburn</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('Babylon Gardens')">Babylon Gardens</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('River Ridge')">River Ridge</button>
+                                 -->
+
+                
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fived-row-win"></div>
+            </div>
+            <div class="resizer" onmousedown="initDrag(event, '31')"></div>
+        </div>
+
+        <!--쓰레기통 윈도우창-->
+
+        <!-- 특별한 책   -->
+
+        
+        <div class="overlay-computer" id="overlay-computer" data-id="32" onmousedown="initializeDragEvents('32')" onclick="recreateText()">
+            <div class="fluid-container">
+                <div class="fluid-container">
+                    <div class="first-row-win" id="first-row-win">
+                        <div class="left">
+                            <img src="./img/28.png" width="17" height="17" style="margin-left: 5px;" alt="파일2">
+                            <!-- 왼쪽 여백 추가 -->
+                            <div class="separator2"></div> <!-- 구분선 1 -->
+                            <img src="./img/2.png" width="17" height="17" style="margin-right: 5px;" alt="복사">
+                            <img src="./img/3.png" width="17" height="17" alt="붙여넣기">
+                            <div class="separator2"></div> <!-- 구분선 2 -->
+                            <span>Grimoire</span>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <i class="fa fa-window-minimize" onclick="closeopencom('32')"></i>
+                        <i class="fa fa-window-restore" onclick="returnCom('32')" id="returncam32"
+                            style="display:none;"></i>
+                        <i class="fa fa-window-maximize" onclick="uperCom('32')" id="upercam32"></i>
+                        <i class="fa fa-times" onclick="closecom('32')"></i>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+                <div class="third-row-win">
+                    <div class="col-xs-2">
+                        <i class="fa fa-long-arrow-left"></i>
+                        <i class="fa fa-long-arrow-right"></i>
+                        <i class="fa fa-chevron-down"></i>
+                    </div>
+                    <div class="col-xs-7">
+                        <div class="path-input">
+                            <img src="https://cdn-icons-png.flaticon.com/128/300/300221.png" width="15" height="15" style="margin-right: 5px;" alt="복사">
+                            http://localhost:3000/
+                        </div>
+                        <i class="fa fa-repeat path-icon-1"></i>
+                        <i class="path-icon-2">|</i>
+                    </div>
+                    <div class="col-xs-3">
+                        <input class="search-input" type="text" placeholder="Search">
+                        <i class="fa fa-search path-icon-1"></i>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="fourd-row-win">
+                    <div class="col-xs-9 ">
+                        <div class="row main-folders">
+
+                            <div class="search-container">
+                                
+                                <b>그리모어</b>(Grimoire)
+
+                                <hr>
+
+                                <p><img src="https://i.namu.wiki/i/Ef2kIqJIBtrnc0RXOeY0Go7UicgsEdfeg4JUNgrRORlRl7t1-8OEPtW_8yo2wCmSL7tadi152vHwUMj8Tv4Enk7rsQrNRjcmQI3VYIhJlgsrAv3YY3LlgqyS8i9LVBBkv-aOo0nzgxE9wwf-XKHP311IPVDjLeQFSrlN1ovBu0k.jpg" width="300" height="450" style="margin-right: 5px;" ></p>
+                                
+                                <p>1934년 5월 11일 러브크래프트가 그린 크툴루</p>
+                                <p><b>창조자</b>&nbsp;&nbsp;&nbsp;&nbsp;하워드 필립스 러브크래프트</p>
+                
+                            </div>
+
+                            <hr>
+                             <p><b>개요</b></p>
+                             <p>Grimoire. 프랑스어로서, 마법의 서적을 의미하며 특히 유럽에서 유포된 마법 서적을 가리킨다.</p>
+                             <p>&nbsp;</p>
+                             <p>일본 매체에서는 거의 대부분 마도서(魔導書)로 번역하며 이 번역어가 한국에도 비교적 잘 알려져 있다. 그 외엔 마법서, 마술서라고도 한다.</p>
+                             <p>&nbsp;</p>
+                             <p>주로 흑마법에 연관된 것이 많다. 특히 초기의 그리모어들은 동화 등에 나오는 긍정적인 의미의 마법이라기보다는, 악마 등과 관련된 뉘앙스의 마법을 주로 일컫는다.</p>
+                             <p>따라서 종교 문헌 등에서는 금기시하는 것들이다. 이 때문에 역으로 공식에서 인정하지 않는 위경이 마도서와 비슷한 취급을 받는 경우도 있다.</p>
+                             <p>에녹서라든가.</p>
+                             <p>&nbsp;</p>
+                             <p>초기에는 좁은 의미로서 악마나 정령, 천사 등을 불러내어 소원을 이루는 방법, 그를 위한 마법진이나 오망성진, 기호, 도형 등의 도안이 그려진 서적을 뜻했고,</p>
+                             <p>이후 마법사의 입장에서 쓰여진 악마학서, 마법이나 주술의 지식, 오의를 기재한 고문서, 기타 마법과 관련된 서적 전반(Spellbook)의 의미로 확장되어 마법책 전반을 의미하는 단어가 되었다.</p>
+                             <p>&nbsp;</p>
+                             <p>████ ██, ████ ██ ██, ██ ██ 등이 유명하며, 특히 ██ █████(The world of god)의 판본 중 하나인 ██ █(green dragon)과 ████ ███ █(the Grimoire of Marisela)</p>
+                             <p>██ ██ 양쪽에 기재된 ███ ███, ██ ███ █████ 라는 주문이 유명하다</p>
+                            <hr>
+
+
+                            <p><b>역사</b></p>
+                            <p>기독교도와 이슬람교도와 유대교도 문화가 공존했던 12~13세기 이베리아 반도와 시칠리아에서는 아랍어 서적들이 라틴어로 번성했다. </p>
+                            <p>그중에는 중세 아라비아의 헬레니즘적 마법을 집성한 '피카트릭스'나 자연 마법적인 내용을 담은 가짜 아리스토텔레스의 '비밀 중의 비밀' 등도 있었다.</p>
+                            <p>중세 유대의 마법서 '천사 라지엘의 서'도 이 시기에 라틴어 번역이 만들어졌다.</p>
+                            <p>이렇게 이어져 온 점성술과 마법 지식은 유럽의 기독교인들에게 자극을 주어 기독교적 요소를 가진 새로운 마법서가 유럽에서 탄생하게 되었다.</p>
+                            <p>12세기 기독교를 배경으로 13세기경까지 생겨난 중세 기독교적 마법 장르 '알스 노트리아'에 대해서는 50종류 이상의 사본이 존재한다.</p>
+                            <p>&nbsp;</p>
+                            <p>중세에는 이런 서적들은 주로 성직자나 학자, 학생 등 라틴어를 읽고 쓸 수 있는 다소나마 교양 있는 사람들에게 읽혀져 사본 형태로 유포되었다.</p>
+                            <p>이들 책에 기록된 의식 마법은, 문맹자에 의한 문맹자를 위한 마법로서 민간에서 구전으로 전하는 민중 마법과 대비된다.</p>
+                            <p>이는 유럽 중세의 의식 마법을 담당하는 사람들 대부분이 성직자였음을 의미한다.</p>
+                            <p> 의식 마법은 악령과 협상하는 이단적인 것으로 토마스 아퀴나스 등 신학자들로부터 비난을 받았으나 일부 성직자들은 마법에 손을 대고 있었다. </p>
+                            <p>예를 들어 12세기 헨리 2세 때의 학승 솔즈베리의 존은 소년 시절 거울을 이용한 마법을 하는 신부에게 영시자 역할을 맡겼다고 한다. </p>
+                            <p>강령술을 시행한 혐의로 고발된 성직자의 종교재판 기록은 많이 남아 있으며, 그 중에는 주교도 포함된다.</p>
+                            <p>수도사, 하급성직자, 소교구 사제나 보조사제 같은 말단 성직자들은 신학에는 비교적 무지했을지 모르지만 기독교 전례에는 통달했고</p>
+                            <p>그 지식을 의식마법으로 전용할 수 있었다. 중세 종교사의 연구자 리처드 키크헤퍼는 하위 성직 계급 중 하나인 엑소시스트에</p>
+                            <p>임명된 적이 있는 자들 중에는 길을 벗어나 악마를 호출하려는 자도 있지 않았느냐고 지적하고 있다. </p>
+                            <p>겨울 동안만 대학에서 공부하고 여름에는 유랑하고 농민들에게 마법의 힘을 선전하며 사기 행세를 하는 가난뱅이 학생도 있었다.</p>
+                            <p>&nbsp;</p>
+                            <p>마녀사냥 시대에는 공공연하게 그리모어를 만들거나 소지할 수 없었지만, 이성의 사랑 얻기, 보물 발견하기 등의 세속적인 목적의 마법은 사람들 사이에 수요가 있었다.</p>
+                            <p>17세기부터 18세기는 보물찾기가 성행했지만 숨겨진 보물은 정령이나 유령에게 지켜진다는 전승이 있어 보물찾기에 마법이 유효하다고 여겼다.</p>
+                            <p>그렇기 때문에 일확천금을 노릴 수 있는 그리모어는 고가로 거래되었다고 한다. 근대에는 일반 민중의 문맹률이 높아지면서 여러 주술사를 모은 통속적인 마법책이 출판되게 되었다.</p>
+                            <p>이전에는 성직자나 대학인과 궁정인의 것이었던 마법서는, 16세기경부터 의사, 변호사, 군인이라고 하는 신흥 인텔리층에도 퍼지기 시작했고,</p>
+                            <p>또한 직공이나 상인이라고 하는 일반인도 소지하고 있는 민중적인 서적이 되었다.</p>
+                            <p>잉글랜드에서 커닝맨이라고 불린 것 같은 민간의 점술가와 치료사도 그리모어에 기재된 부적 등을 이용하게 됐다.</p>
+                            <p>프랑스에서는 17세기에서 18세기에 보따리상들에 의해 '푸른 책(livre bleu)'이라는 민중서적이 팔렸는데, 그 중에는 통속적인 마법서 종류도 많았다. </p>
+                            <p>독일에서는 18세기에 일반민중을 대상으로 한 '가부장을 위한 서적'이라고 불리는 실용서의 출판이 활발해졌는데, 그 일환으로서 마법서도 나돌게 되었다.</p>
+                            <p>그러나 마법서는 스스로 필사한 것이 아니면 힘을 얻을 수 없다는 생각도 뿌리 깊어, 인쇄된 것이 아닌 자필사본의 마법서가 많이 사용되고 있었다.</p>
+                           <hr>
+
+                                <!-- 
+                                <button id="a" class="search-button" onclick="saveToCookie('Book Barn')">Book Barn</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('Three-Squares Mall')">Three-Squares Mall</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('책')">책</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('특별한 책')">특별한 책</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('Whodathunkit')">Whodathunkit</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('특별 행사')">특별 행사</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('Hope of the Pridelands')">Hope of the Pridelands</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('Miss Auburn')">Miss Auburn</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('특별한 사인회')">특별한 사인회</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('Miss Auburn')">Miss Auburn</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('Babylon Gardens')">Babylon Gardens</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('River Ridge')">River Ridge</button>
+                                 -->
+
+                
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fived-row-win"></div>
+            </div>
+            <div class="resizer" onmousedown="initDrag(event, '32')"></div>
+        </div>
+
+        <!--쓰레기통 윈도우창-->
+
+        <!-- 특별한 책   -->
+
+        
+        <div class="overlay-computer" id="overlay-computer" data-id="33" onmousedown="initializeDragEvents('33')" onclick="recreateText()">
+            <div class="fluid-container">
+                <div class="fluid-container">
+                    <div class="first-row-win" id="first-row-win">
+                        <div class="left">
+                            <img src="./img/28.png" width="17" height="17" style="margin-left: 5px;" alt="파일2">
+                            <!-- 왼쪽 여백 추가 -->
+                            <div class="separator2"></div> <!-- 구분선 1 -->
+                            <img src="./img/2.png" width="17" height="17" style="margin-right: 5px;" alt="복사">
+                            <img src="./img/3.png" width="17" height="17" alt="붙여넣기">
+                            <div class="separator2"></div> <!-- 구분선 2 -->
+                            <span>The Pridelands Cycle</span>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <i class="fa fa-window-minimize" onclick="closeopencom('33')"></i>
+                        <i class="fa fa-window-restore" onclick="returnCom('33')" id="returncam33"
+                            style="display:none;"></i>
+                        <i class="fa fa-window-maximize" onclick="uperCom('33')" id="upercam33"></i>
+                        <i class="fa fa-times" onclick="closecom('33')"></i>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+                <div class="third-row-win">
+                    <div class="col-xs-2">
+                        <i class="fa fa-long-arrow-left"></i>
+                        <i class="fa fa-long-arrow-right"></i>
+                        <i class="fa fa-chevron-down"></i>
+                    </div>
+                    <div class="col-xs-7">
+                        <div class="path-input">
+                            <img src="https://cdn-icons-png.flaticon.com/128/300/300221.png" width="15" height="15" style="margin-right: 5px;" alt="복사">
+                            http://localhost:3000/
+                        </div>
+                        <i class="fa fa-repeat path-icon-1"></i>
+                        <i class="path-icon-2">|</i>
+                    </div>
+                    <div class="col-xs-3">
+                        <input class="search-input" type="text" placeholder="Search">
+                        <i class="fa fa-search path-icon-1"></i>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="fourd-row-win">
+                    <div class="col-xs-9 ">
+                        <div class="row main-folders">
+
+                            <div class="search-container">
+                                
+                                <b>The Pridelands Cycle</b>
+
+                            </div>
+
+                            <hr>
+                             <p><b>The Pridelands Cycle: 대서사시적 동물 왕국의 전쟁 이야기</b></p>
+                             <p>The Pridelands Cycle은 Ms. Auburn이 집필한 픽션 책 시리즈로, Ms. Auburn의 이름으로 출판된 작품입니다.</p>
+                             <p>이 시리즈는 고대 아프리카의 동물 부족들 간의 전쟁을 중심으로 전개되며, 주로 사자와 치타 같은 고양이과 동물을 주요 인물로 다루고 있습니다.</p>
+                             <p>이로 인해 The Pridelands Cycle은 고양이들 사이에서 큰 인기를 끌고 있으며, 대표적으로 비교적 젊은 팬이 시리즈를 좋아합니다.</p>
+                             <p>또한 일부 개들 사이에서도 '고양이 애호가'라는 낙인에도 불구하고 인기를 얻고 있습니다.</p>
+                             <p>&nbsp;</p>
+                             <p>현재 시리즈에는 6권의 책이 출간되었으며, 첫 네 권은 Hunters of the Pridelands, Glories of the Pridelands,</p>
+                             <p>Fall of the Pridelands, 그리고 Hope of the Pridelands로 구성되어 있습니다. </p>
+                             <p>현재 일곱 번째 책인 The End of the Pridelands가 집필 중에 있으며, 이 시리즈는 독자들에게 끊임없는 기대감을 주고 있습니다.</p>
+                             <p>&nbsp;</p>
+                             <p>The Pridelands Cycle은 단순한 이야기 그 이상을 담고 있습니다. 이는 전쟁과 명예, 배신과 희망을 다루는 대서사시로,</p>
+                             <p>고대 아프리카의 동물 왕국의 전쟁을 배경으로 한 풍부한 세계관을 제공합니다. </p>
+                             <p>독자들은 이 시리즈를 통해 역사적인 분쟁과 동물들의 복잡한 관계, 그리고 그들이 맞닥뜨리는 도전을 함께 경험하게 됩니다.</p>
+                             <p>고양이뿐만 아니라 개, 그리고 다양한 독자층에게 사랑받는 이 시리즈는 앞으로도 더욱 많은 독자들을 사로잡을 것입니다.</p>
+                             <p>&nbsp;</p>
+                             <p>덧붙여, 작가 Res Auburn은 곧 출간될 일곱 번째 책 The End of the Pridelands를 기념하여 Three-Squares Mall에서 사인회를 열 계획이었음을 알려드립니다.</p>
+                             <p>팬들과 직접 만나 소통할 기회를 기대했던 작가님은 이번 행사를 통해 The Pridelands Cycle의 열혈 독자들에게 특별한 추억을 선사하려고 했습니다.</p>
+                            <hr>
+
+                            <details open>
+                                <p><b>작가님 방문 취소에 대한 유감의 말씀</b></p>
+                                <p>안타깝게도, 곧 출간될 The Pridelands Cycle의 다음 책을 기념하여 계획되었던 Three-Squares Mall 방문이 불가피하게 취소되었음을 알려드립니다.</p>
+                                <p>현재 Three-Squares Mall은 최근 발생한 국지적인 팬데믹으로 인해 주방위군과 미군에 의해 봉쇄된 상태입니다.</p>
+                                <p>그러나 이에 대한 논란이 확산되면서 시위대가 등장하고, 정부는 Three-Squares Mall로 통하는 국도까지 차단한 상황입니다.</p>
+                                <p>&nbsp;</p>
+                                <p>이러한 불가피한 상황으로 인해 작가님의 깜짝 방문이 이루어지지 못하게 된 점, 진심으로 유감스럽게 생각합니다.</p>
+                                <p>저희 모두가 이번 팬데믹 상황이 빠르게 안정화되기를 바라며, 추후 작가님과 팬 여러분이 직접 만날 수 있는 기회를 마련하기 위해 최선을 다할 것입니다.</p>
+                                <p>이번 방문이 취소된 것에 대해 다시 한 번 깊은 사과의 말씀을 드리며, 앞으로도 The Pridelands Cycle에 대한 지속적인 관심과 성원을 부탁드립니다. 감사합니다.</p>
+                            </details>
+
+
+
+                                <!-- 
+                                <button id="a" class="search-button" onclick="saveToCookie('Book Barn')">Book Barn</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('Three-Squares Mall')">Three-Squares Mall</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('책')">책</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('특별한 책')">특별한 책</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('Whodathunkit')">Whodathunkit</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('특별 행사')">특별 행사</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('Hope of the Pridelands')">Hope of the Pridelands</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('Miss Auburn')">Miss Auburn</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('특별한 사인회')">특별한 사인회</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('Miss Auburn')">Miss Auburn</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('Babylon Gardens')">Babylon Gardens</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('River Ridge')">River Ridge</button>
+                                 -->
+
+                
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fived-row-win"></div>
+            </div>
+            <div class="resizer" onmousedown="initDrag(event, '32')"></div>
         </div>
 
         <!--쓰레기통 윈도우창-->
@@ -3065,6 +3468,9 @@ function searchBooks() {
 function mapSearchQueryToDataId(searchQuery) {
     // 예시 매핑 (여기서는 임의로 매핑 설정)
     const mapping = {
+        "Hope of the Pridelands": "33", // 예: Three-Squares Mall  30번
+        "특별한 책": "32", // 예: Three-Squares Mall  30번
+        "책": "31", // 예: Three-Squares Mall  30번
         "Three-Squares Mall": "30", // 예: Three-Squares Mall  30번 
         "가 + 나 + 다": "10", // 예: "가 + 나 + 다" 검색 시 data-id="10"으로 이동
         "가 + 나": "2",       // 예: "가 + 나" 검색 시 data-id="2"으로 이동
