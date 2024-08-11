@@ -11,522 +11,522 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <style>body {
-    -webkit-user-select: none; /* Safari */
-  -moz-user-select: none;    /* Firefox */
-  -ms-user-select: none;     /* IE 10+ and Edge */
-  user-select: none;         /* 표준 문법 */
-    overflow: hidden;
-    background-color: #000;
+  -webkit-user-select: none; /* Safari */
+-moz-user-select: none;    /* Firefox */
+-ms-user-select: none;     /* IE 10+ and Edge */
+user-select: none;         /* 표준 문법 */
+  overflow: hidden;
+  background-color: #000;
 }
 
 .window {
-    background-image: url('https://mohamedelghandour.github.io/windows-10/img/windows_10.jpg');
-    color: white;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
+  background-image: url('https://mohamedelghandour.github.io/windows-10/img/windows_10.jpg');
+  color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
 }
 
 footer.footer i {
-    font-size: 1.4em;
+  font-size: 1.4em;
 }
 
 footer.footer {
-    background-color: rgba(1, 1, 1, .8);
-    border-color: rgba(1, 1, 1, .8);
+  background-color: rgba(1, 1, 1, .8);
+  border-color: rgba(1, 1, 1, .8);
 }
 
 footer.footer .left .col-xs-1 {
-    width: 4.333%;
-    text-align: left;
-    padding-left: 30px;
-    overflow: hidden;
+  width: 4.333%;
+  text-align: left;
+  padding-left: 30px;
+  overflow: hidden;
 }
 
 footer.footer .left .col-xs-1-me:first-child {
-    margin-left: 15px;
-    border-bottom: 2px solid #76b9ed;
+  margin-left: 15px;
+  border-bottom: 2px solid #76b9ed;
 }
 
 footer.footer .left .col-xs-1-me {
-    float: left;
-    width: 40px;
-    height: 40px;
-    padding-top: 10px;
-    margin-right: 10px;
+  float: left;
+  width: 40px;
+  height: 40px;
+  padding-top: 10px;
+  margin-right: 10px;
 }
 
 footer.footer .left .col-xs-1-me:nth-of-type(2) i {
-    transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 footer.footer .left .col-xs-1-me:hover {
-    background-color: rgba(255, 255, 255, .15);
+  background-color: rgba(255, 255, 255, .15);
 }
 
 footer.footer .right .col-xs-1 {
-    width: 4.333%;
-    text-align: right;
-    padding-right: 30px;
-    overflow: hidden;
+  width: 4.333%;
+  text-align: right;
+  padding-right: 30px;
+  overflow: hidden;
 }
 
 footer.footer .right .col-xs-1-me:first-child {
-    margin-right: 15px;
-    border: none;
-    height: 40px;
-    width: 5px;
-    border-left: 1px solid #7d7d7d;
+  margin-right: 15px;
+  border: none;
+  height: 40px;
+  width: 5px;
+  border-left: 1px solid #7d7d7d;
 }
 
 footer.footer .right .col-xs-1-me {
-    float: right;
-    width: 40px;
-    height: 40px;
-    padding-top: 10px;
-    margin-left: 10px;
+  float: right;
+  width: 40px;
+  height: 40px;
+  padding-top: 10px;
+  margin-left: 10px;
 }
 
 footer.footer .right .col-xs-1-me:hover {
-    background-color: rgba(255, 255, 255, .15);
+  background-color: rgba(255, 255, 255, .15);
 }
 
 footer.footer .right .date {
-    width: 80px;
-    padding: 0;
+  width: 80px;
+  padding: 0;
 }
 
 footer.footer .right i {
-    font-size: 1em;
+  font-size: 1em;
 }
 
 .start-window {
-    width: 960px;
-    height: 530px;
-    position: fixed;
-    left: 0;
-    bottom: 40px;
-    background-color: rgba(21, 21, 21, 0.9);
-    transition: all .1s ease-in-out;
+  width: 960px;
+  height: 530px;
+  position: fixed;
+  left: 0;
+  bottom: 40px;
+  background-color: rgba(21, 21, 21, 0.9);
+  transition: all .1s ease-in-out;
 }
 
 .start-window .first-column {
-    display: flex;
-    flex-direction: column-reverse;
-    min-height: 530px;
-    justify-content: flex-start;
-    text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
+  min-height: 530px;
+  justify-content: flex-start;
+  text-align: center;
 }
 
 .start-window .first-column .icon-bottom {
-    align-self: center;
-    font-size: 17px;
-    width: 100%;
+  align-self: center;
+  font-size: 17px;
+  width: 100%;
 }
 
 .start-window .first-column .open-icon-list {
-    margin-bottom: auto;
-    padding-top: 10px;
+  margin-bottom: auto;
+  padding-top: 10px;
 }
 
 .start-window .first-column .icon-bottom:hover {
-    background-color: rgba(255, 255, 255, .15);
+  background-color: rgba(255, 255, 255, .15);
 }
 
 .start-window .first-column .icon-bottom {
-    padding: 10px;
+  padding: 10px;
 }
 
 .start-window .second-column .head-med {
-    padding: 10px;
+  padding: 10px;
 }
 
 .start-window .second-column {
-    height: 530px;
-    overflow: auto;
+  height: 530px;
+  overflow: auto;
 }
 
 .start-window .second-column .media-heading {
-    line-height: 35px;
+  line-height: 35px;
 }
 
 .start-window .second-column .media:hover,
 .start-window .second-column .head-med:hover {
-    background-color: rgba(255, 255, 255, .15);
+  background-color: rgba(255, 255, 255, .15);
 }
 
 .start-window .second-column .media {
-    margin-top: 0;
-    padding: 10px;
+  margin-top: 0;
+  padding: 10px;
 }
 
 .start-window .second-column .fa-chevron-down {
-    float: right;
-    line-height: 20px;
+  float: right;
+  line-height: 20px;
 }
 
 .start-window .second-column .mouse-prient {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .start-window .head-box {
-    padding: 10px 10px 10px 0;
-    margin-left: -5px;
+  padding: 10px 10px 10px 0;
+  margin-left: -5px;
 }
 
 .start-window .box {
-    padding: 0;
+  padding: 0;
 }
 
 .start-window .box-style {
-    background-color: #0079d6;
-    height: 100px;
-    padding: 10px;
-    margin: 10px;
+  background-color: #0079d6;
+  height: 100px;
+  padding: 10px;
+  margin: 10px;
 }
 
 .start-window .row {
-    margin-right: -5px;
+  margin-right: -5px;
 }
 
 .start-window .mycontainer {
-    line-height: 30px;
+  line-height: 30px;
 }
 
 .start-window #number-day {
-    font-size: 40px;
-    font-weight: bold;
-    padding: 10px;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 10px;
 }
 
 .start-window .box-style:hover {
-    outline: 2px solid #8dc0e7;
+  outline: 2px solid #8dc0e7;
 }
 
 .hidden-start {
-    display: none;
+  display: none;
 }
 
 .start-window-fade {
-    position: relative;
-    background-color: rgba(0, 0, 0, 0);
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .start-window .fluid-container {
-    padding-top: 530px;
-    -webkit-transition: all .1s ease-in-out;
-    -moz-transition: all .1s ease-in-out;
-    transition: all .1s ease-in-out;
+  padding-top: 530px;
+  -webkit-transition: all .1s ease-in-out;
+  -moz-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
 }
 
 .start-window .fluid-container.activecontainer {
-    padding-top: 0;
+  padding-top: 0;
 }
 
 mark {
-    background-color: #0079d6;
-    color: white;
-    padding: 3px;
-    margin: 2px;
+  background-color: #0079d6;
+  color: white;
+  padding: 3px;
+  margin: 2px;
 }
 
 .icon-computer {
-    width: 60px;
-    margin: 10px;
-    cursor: pointer;
+  width: 60px;
+  margin: 10px;
+  cursor: pointer;
 }
 
 .icon-computer p {
-    text-shadow: 3px 3px 3px #000, -3px -3px 3px #000;
-    margin: 0;
+  text-shadow: 3px 3px 3px #000, -3px -3px 3px #000;
+  margin: 0;
 }
 
 .icon-computer:hover {
-    background-color: rgba(3, 166, 255, 0.3);
-    outline: 2px solid rgba(3, 166, 255, 0.9);
+  background-color: rgba(3, 166, 255, 0.3);
+  outline: 2px solid rgba(3, 166, 255, 0.9);
 }
 
 .folders:hover {
-    background-color: rgba(3, 166, 255, 0.3);
-    outline: 2px solid rgba(3, 166, 255, 0.9);
+  background-color: rgba(3, 166, 255, 0.3);
+  outline: 2px solid rgba(3, 166, 255, 0.9);
 }
 
 .overlay-computer {
-    width: 70%;
-    height: 60%;
-    background: #fff;
-    border: 2px solid #1883d7;
-    color: black;
-    overflow: auto;
-    margin: auto;
-    position: absolute;
-    left: 15%;
-    top: 20%;
-    transition: transform .5s ease-in-out;
-    transform: scale(0);
-    min-height: 375px;
-    min-width: 720px;
+  width: 70%;
+  height: 60%;
+  background: #fff;
+  border: 2px solid #1883d7;
+  color: black;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  left: 15%;
+  top: 20%;
+  transition: transform .5s ease-in-out;
+  transform: scale(0);
+  min-height: 375px;
+  min-width: 720px;
 }
 
 .overlay-computer .left {
-    float: left;
+  float: left;
 }
 
 .overlay-computer .right {
-    float: right;
+  float: right;
 }
 
 .overlay-computer .first-row-win .left i:after {
-    content: " | ";
-    margin: 0 5px
+  content: " | ";
+  margin: 0 5px
 }
 
 .overlay-computer .first-row-win .left i:last-of-type::after {
-    content: "  ";
-    margin: 0 5px
+  content: "  ";
+  margin: 0 5px
 }
 
 .overlay-computer i {
-    padding: 5px;
+  padding: 5px;
 }
 
 .overlay-computer .first-row-win .right i.fa.fa-times:hover {
-    color: white;
-    background-color: #d40000;
+  color: white;
+  background-color: #d40000;
 }
 
 .start-window .first-column .icon-bottom:hover {
-    background-color: rgba(255, 255, 255, .15);
+  background-color: rgba(255, 255, 255, .15);
 }
 
 .overlay-computer .first-row-win .right i:hover {
-    background-color: #ddd;
+  background-color: #ddd;
 }
 
 .overlay-computer .nav>li>a {
-    position: relative;
-    display: block;
-    padding: 3px 15px;
+  position: relative;
+  display: block;
+  padding: 3px 15px;
 }
 
 .overlay-computer .nav-tabs>li>a {
-    border-radius: 0;
+  border-radius: 0;
 }
 
 .overlay-computer a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .overlay-computer .tab-content {
-    background-color: #f5f6f7;
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
+  background-color: #f5f6f7;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
 }
 
 .nav-tabs>li.active>a:focus {
-    background-color: #f5f6f7;
+  background-color: #f5f6f7;
 }
 
 .overlay-computer a.home-a,
 .overlay-computer li.active a.home-a,
 .overlay-computer li:hover a.home-a {
-    background-color: #2587db;
-    color: white;
-    border-color: transparent;
+  background-color: #2587db;
+  color: white;
+  border-color: transparent;
 }
 
 .overlay-computer .div-icon-left {
-    float: left;
+  float: left;
 }
 
 .overlay-computer .second-row-win i {
-    color: #808080;
+  color: #808080;
 }
 
 .overlay-computer .third-row-win i {
-    color: #6d6d6d;
-    margin: 7.5px 0 0;
+  color: #6d6d6d;
+  margin: 7.5px 0 0;
 }
 
 .overlay-computer .fa.fa-chevron-down {
-    color: #c8c8c8;
+  color: #c8c8c8;
 }
 
 .overlay-computer .third-row-win input {
-    width: 100%;
-    margin: 5px 0 0;
+  width: 100%;
+  margin: 5px 0 0;
 }
 
 .path-icon {
-    position: absolute;
-    bottom: 6px;
-    left: 22px;
+  position: absolute;
+  bottom: 6px;
+  left: 22px;
 }
 
 .path-input {
-    padding-left: 25px;
-    width: 100%;
-    margin: 5px 0 0;
-    height: 24px;
-    border: 1px solid #6d6d6d;
+  padding-left: 25px;
+  width: 100%;
+  margin: 5px 0 0;
+  height: 24px;
+  border: 1px solid #6d6d6d;
 }
 
 .path-icon-1 {
-    position: absolute;
-    top: -2px;
-    right: 17px;
+  position: absolute;
+  top: -2px;
+  right: 17px;
 }
 
 .path-icon-2 {
-    position: absolute;
-    top: -15px;
-    right: 32px;
-    font-size: 24px;
+  position: absolute;
+  top: -15px;
+  right: 32px;
+  font-size: 24px;
 }
 
 .search-input {
-    width: 100%;
-    margin: 5px 0 0;
-    height: 24px;
-    border: 1px solid #6d6d6d;
-    padding-right: 25px;
-    padding-left: 5px;
+  width: 100%;
+  margin: 5px 0 0;
+  height: 24px;
+  border: 1px solid #6d6d6d;
+  padding-right: 25px;
+  padding-left: 5px;
 }
 
 .path-icon-input {
-    font-size: 11px;
+  font-size: 11px;
 }
 
 .path-icon-input:before {
-    content: "\f054";
-    font-family: FontAwesome;
-    margin: 5px;
+  content: "\f054";
+  font-family: FontAwesome;
+  margin: 5px;
 }
 
 .panel-default {
-    border: none;
+  border: none;
 }
 
 .panel {
-    margin-bottom: 20px;
-    background-color: #fff;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    -webkit-box-shadow: none;
-    box-shadow: none;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
 .panel-default .fa::before {
-    padding: 5px;
+  padding: 5px;
 }
 
 .main-folders {
-    padding: 7.5px;
+  padding: 7.5px;
 }
 
 .contain {
-    height: 60px;
-    overflow: hidden;
+  height: 60px;
+  overflow: hidden;
 }
 
 .contain img {
-    max-height: 100%;
+  max-height: 100%;
 }
 
 .image-overlay {
-    position: absolute;
-    width: 100%;
-    margin: auto;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    background-color: #111;
-    padding-bottom: 40px;
-    color: #fff;
-    transition: all .5s ease-in-out;
-    transform: scale(0);
+  position: absolute;
+  width: 100%;
+  margin: auto;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: #111;
+  padding-bottom: 40px;
+  color: #fff;
+  transition: all .5s ease-in-out;
+  transform: scale(0);
 }
 
 .image-overlay .right {
-    float: right
+  float: right
 }
 
 .image-overlay .right i {
-    padding: 8px;
+  padding: 8px;
 }
 
 .image-overlay .right i.fa.fa-times:hover {
-    color: white;
-    background-color: #d40000;
+  color: white;
+  background-color: #d40000;
 }
 
 .image-overlay .right i:hover {
-    background-color: #ddd;
+  background-color: #ddd;
 }
 
 .note-overlay {
-    position: absolute;
-    width: 100%;
-    margin: auto;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    background-color: #111;
-    padding-bottom: 40px;
-    color: #fff;
-    transition: all .5s ease-in-out;
-    overflow: hidden;
-    transform: scale(0);
+  position: absolute;
+  width: 100%;
+  margin: auto;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #111;
+  padding-bottom: 40px;
+  color: #fff;
+  transition: all .5s ease-in-out;
+  overflow: hidden;
+  transform: scale(0);
 }
 
 .note-overlay .right {
-    float: right
+  float: right
 }
 
 .note-overlay .right i {
-    padding: 8px;
+  padding: 8px;
 }
 
 .note-overlay .right i.fa.fa-times:hover {
-    color: white;
-    background-color: #d40000;
+  color: white;
+  background-color: #d40000;
 }
 
 .note-overlay .right i:hover {
-    background-color: #ddd;
+  background-color: #ddd;
 }
 
 .note-overlay textarea {
-    width: 100%;
-    height: 100vh;
-    resize: none;
-    color: black;
-    padding: 10px;
+  width: 100%;
+  height: 100vh;
+  resize: none;
+  color: black;
+  padding: 10px;
 }
 
 .head-over {
-    color: white;
-    padding: 5px;
-    font-weight: bold;
-    display: inline-block;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  display: inline-block;
 }
 
 div.resizable {
-    position: relative;
+  position: relative;
 }
 
 div .resizer {
-    width: 10px;
-    height: 10px;
-    background: #ddd;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    cursor: se-resize;
+  width: 10px;
+  height: 10px;
+  background: #ddd;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  cursor: se-resize;
 }
 
 #a1,
@@ -534,249 +534,249 @@ div .resizer {
 #a3,
 #a4,
 #a5 {
-    display: none;
+  display: none;
 }
 
 
 
 .option-box {
-    position: fixed;
-    top: 100px;
-    right: 0;
+  position: fixed;
+  top: 100px;
+  right: 0;
 }
 
 .option-box .color-box {
-    background-color: #333;
-    padding: 10px;
-    float: right;
-    position: relative;
-    right: 0px;
-    transition: all .5s ease-in-out;
-    border: 3px solid #0079d6;
-    border-right: none;
+  background-color: #333;
+  padding: 10px;
+  float: right;
+  position: relative;
+  right: 0px;
+  transition: all .5s ease-in-out;
+  border: 3px solid #0079d6;
+  border-right: none;
 }
 
 .option-box .gear-check {
-    float: right;
-    padding: 5px;
-    position: relative;
-    right: 0px;
-    transition: all .5s ease-in-out;
-    background-color: #0079d6;
-    cursor: pointer;
+  float: right;
+  padding: 5px;
+  position: relative;
+  right: 0px;
+  transition: all .5s ease-in-out;
+  background-color: #0079d6;
+  cursor: pointer;
 }
 
 #day {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .about-overlay {
-    position: absolute;
-    width: 100%;
-    margin: auto;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    background-color: #111;
-    padding-bottom: 40px;
-    color: #fff;
-    transition: all .5s ease-in-out;
-    transform: scale(0);
-    overflow: auto;
+  position: absolute;
+  width: 100%;
+  margin: auto;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #111;
+  padding-bottom: 40px;
+  color: #fff;
+  transition: all .5s ease-in-out;
+  transform: scale(0);
+  overflow: auto;
 }
 
 .about-overlay .right {
-    float: right
+  float: right
 }
 
 .about-overlay .right i {
-    padding: 8px;
+  padding: 8px;
 }
 
 .about-overlay img {
-    height: 300px;
-    margin: 10px;
+  height: 300px;
+  margin: 10px;
 }
 
 .about-overlay p {
-    margin: 10px;
+  margin: 10px;
 }
 
 .about-overlay .second-row-abo {
-    padding: 20px;
-    padding-bottom: 50px;
-    line-height: 2;
+  padding: 20px;
+  padding-bottom: 50px;
+  line-height: 2;
 }
 
 .about-overlay .right i.fa.fa-times:hover {
-    color: white;
-    background-color: #d40000;
+  color: white;
+  background-color: #d40000;
 }
 
 .about-overlay .right i:hover {
-    background-color: #ddd;
+  background-color: #ddd;
 }
 
 .btn-primary {
-    color: #fff;
-    background-color: #0079d6;
-    border-color: #0079d6;
-    font-size: 20px;
-    margin: 10px 0;
+  color: #fff;
+  background-color: #0079d6;
+  border-color: #0079d6;
+  font-size: 20px;
+  margin: 10px 0;
 }
 
 .btn-primary:hover {
-    color: #fff;
-    background-color: #0079d6;
-    border-color: #204d74;
+  color: #fff;
+  background-color: #0079d6;
+  border-color: #204d74;
 }
 
 /* 툴바 css 추가 */
 
 .home-tap-container {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .home-tap {
-    text-align: center;
-    margin: 0 10px;
+  text-align: center;
+  margin: 0 10px;
 }
 
 .home-tap img {
-    display: block;
-    margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .home-tap p {
-    margin: 5px 0 0;
-    font-size: 12px;
+  margin: 5px 0 0;
+  font-size: 12px;
 }
 
 .separator {
-    height: 60px;
-    width: 1px;
-    background-color: #ccc;
-    margin: 0 10px;
+  height: 60px;
+  width: 1px;
+  background-color: #ccc;
+  margin: 0 10px;
 }
 
 /* 왼쪽 상단 아이콘*/
 .separator2 {
-    height: 10px; /* 아이콘과 같은 높이 */
-    width: 1px;   /* 구분선의 너비 */
-    background-color: #ccc; /* 구분선의 색상 */
-    margin: 0 8px; /* 구분선과 인접 아이콘 사이의 간격 조절 */
+  height: 10px; /* 아이콘과 같은 높이 */
+  width: 1px;   /* 구분선의 너비 */
+  background-color: #ccc; /* 구분선의 색상 */
+  margin: 0 8px; /* 구분선과 인접 아이콘 사이의 간격 조절 */
 }
 
 
 .first-row-win .left {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .first-row-win .left span {
-    font-size: 14px; /* 텍스트의 폰트 크기 조절 */
-    margin-left: 8px; /* 텍스트와 마지막 아이콘 사이의 간격 조절 */
+  font-size: 14px; /* 텍스트의 폰트 크기 조절 */
+  margin-left: 8px; /* 텍스트와 마지막 아이콘 사이의 간격 조절 */
 }
 
 .image-overlay img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* 이미지를 정확히 중앙으로 이동시킵니다. */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* 이미지를 정확히 중앙으로 이동시킵니다. */
 }
 
 i.fa.fa-times:hover {
-    color: white;
-    background-color: #d40000;
+  color: white;
+  background-color: #d40000;
 }
 
 .icon-bottom:hover {
-    background-color: rgba(255, 255, 255, .15);
+  background-color: rgba(255, 255, 255, .15);
 }
 
 .right i:hover {
-    background-color: #ddd;
+  background-color: #ddd;
 }
 
 .login-container {
-            background-image: url(https://mohamedelghandour.github.io/windows-10/img/windows_10.jpg);
-            background-size: cover;
-            height: 100vh;
-            z-index: 1000;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
+          background-image: url(https://mohamedelghandour.github.io/windows-10/img/windows_10.jpg);
+          background-size: cover;
+          height: 100vh;
+          z-index: 1000;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+      }
 
 
-        .custom-input {
-            display: flex;
-            align-items: center;
-            border: 2px solid #ccc;
-            border-radius: 20px;
-            overflow: hidden;
-            background-color: white;
-            margin-bottom: 15px;
-        }
+      .custom-input {
+          display: flex;
+          align-items: center;
+          border: 2px solid #ccc;
+          border-radius: 20px;
+          overflow: hidden;
+          background-color: white;
+          margin-bottom: 15px;
+      }
 
-        .custom-input input {
-            border: none;
-            padding: 10px;
-            flex: 1;
-            outline: none;
-            font-size: 16px;
-            border-radius: 0;
-        }
+      .custom-input input {
+          border: none;
+          padding: 10px;
+          flex: 1;
+          outline: none;
+          font-size: 16px;
+          border-radius: 0;
+      }
 
-        .custom-input button {
-            border: none;
-            background-color: #ccc;
-            padding: 10px 20px;
-            cursor: pointer;
-            border-radius: 0 20px 20px 0;
-            outline: none;
-        }
+      .custom-input button {
+          border: none;
+          background-color: #ccc;
+          padding: 10px 20px;
+          cursor: pointer;
+          border-radius: 0 20px 20px 0;
+          outline: none;
+      }
 
-        .custom-input button:hover {
-            background-color: #bbb;
-        }
+      .custom-input button:hover {
+          background-color: #bbb;
+      }
 
-        .custom-input img {
-            height: 16px;
-            width: 16px;
-            margin-left: 10px;
-        }
+      .custom-input img {
+          height: 16px;
+          width: 16px;
+          margin-left: 10px;
+      }
 
-        .dynamic-text {
-            cursor: pointer;
-            margin-right: 5px;
-        }
+      .dynamic-text {
+          cursor: pointer;
+          margin-right: 5px;
+      }
 
-        #a {
-            background: none;
-            border: none;
-            color: inherit;
-            font: inherit;
-            cursor: pointer;
-            padding: 0;
-            margin: 0;
-            text-decoration: none;
-            display: inline;
-        }
+      #a {
+          background: none;
+          border: none;
+          color: inherit;
+          font: inherit;
+          cursor: pointer;
+          padding: 0;
+          margin: 0;
+          text-decoration: none;
+          display: inline;
+      }
 
-        #a:hover {
-            text-decoration: underline; /* 선택적으로 호버 시 밑줄 추가 */
-        }
+      #a:hover {
+          text-decoration: underline; /* 선택적으로 호버 시 밑줄 추가 */
+      }
 
-        
-        </style>
+      
+      </style>
 
 <body>
 
-    <div class="login-container">
+    <!-- <div class="login-container">
         <div class="custom-input">
             <img src="https://img.icons8.com/ios-filled/50/000000/user.png" alt="User Icon">
             <input type="text" id="username" placeholder="아이디">
@@ -788,7 +788,7 @@ i.fa.fa-times:hover {
             <button onclick="login()">&#x27A4;</button>
         </div>
         <p id="error" style="color:red; display:none;">아이디 또는 비밀번호가 잘못되었습니다.</p>
-    </div>
+    </div> -->
 
 
     <!-- 메인화면 -->
@@ -1430,7 +1430,7 @@ i.fa.fa-times:hover {
             <div class="resizer" onmousedown="initDrag(event, '10')"></div>
         </div>
 
-        <!--쓰레기통 윈도우창-->
+        <!--끝-->
 
         <div class="overlay-computer" id="overlay-computer" data-id="3" onmousedown="initializeDragEvents('3')">
             <div class="fluid-container">
@@ -1909,7 +1909,7 @@ i.fa.fa-times:hover {
             <div class="resizer" onmousedown="initDrag(event, '30')"></div>
         </div>
 
-        <!--쓰레기통 윈도우창-->
+        <!--끝-->
 
         <!-- 책   -->
 
@@ -2057,7 +2057,7 @@ i.fa.fa-times:hover {
             <div class="resizer" onmousedown="initDrag(event, '31')"></div>
         </div>
 
-        <!--쓰레기통 윈도우창-->
+        <!--끝-->
 
         <!-- 특별한 책   -->
 
@@ -2195,9 +2195,9 @@ i.fa.fa-times:hover {
             <div class="resizer" onmousedown="initDrag(event, '32')"></div>
         </div>
 
-        <!--쓰레기통 윈도우창-->
+        <!--끝-->
 
-        <!-- 특별한 책   -->
+        <!-- The Pridelands Cycle   -->
 
         
         <div class="overlay-computer" id="overlay-computer" data-id="33" onmousedown="initializeDragEvents('33')" onclick="recreateText()">
@@ -2312,7 +2312,105 @@ i.fa.fa-times:hover {
             <div class="resizer" onmousedown="initDrag(event, '32')"></div>
         </div>
 
-        <!--쓰레기통 윈도우창-->
+        <!--끝-->
+
+        <!-- 특별한 책   -->
+
+        
+        <div class="overlay-computer" id="overlay-computer" data-id="34" onmousedown="initializeDragEvents('34')" onclick="recreateText()">
+            <div class="fluid-container">
+                <div class="fluid-container">
+                    <div class="first-row-win" id="first-row-win">
+                        <div class="left">
+                            <img src="./img/28.png" width="17" height="17" style="margin-left: 5px;" alt="파일2">
+                            <!-- 왼쪽 여백 추가 -->
+                            <div class="separator2"></div> <!-- 구분선 1 -->
+                            <img src="./img/2.png" width="17" height="17" style="margin-right: 5px;" alt="복사">
+                            <img src="./img/3.png" width="17" height="17" alt="붙여넣기">
+                            <div class="separator2"></div> <!-- 구분선 2 -->
+                            <span>River Ridge</span>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <i class="fa fa-window-minimize" onclick="closeopencom('34')"></i>
+                        <i class="fa fa-window-restore" onclick="returnCom('34')" id="returncam34"
+                            style="display:none;"></i>
+                        <i class="fa fa-window-maximize" onclick="uperCom('34')" id="upercam34"></i>
+                        <i class="fa fa-times" onclick="closecom('34')"></i>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+                <div class="third-row-win">
+                    <div class="col-xs-2">
+                        <i class="fa fa-long-arrow-left"></i>
+                        <i class="fa fa-long-arrow-right"></i>
+                        <i class="fa fa-chevron-down"></i>
+                    </div>
+                    <div class="col-xs-7">
+                        <div class="path-input">
+                            <img src="https://cdn-icons-png.flaticon.com/128/300/300221.png" width="15" height="15" style="margin-right: 5px;" alt="복사">
+                            http://localhost:3000/
+                        </div>
+                        <i class="fa fa-repeat path-icon-1"></i>
+                        <i class="path-icon-2">|</i>
+                    </div>
+                    <div class="col-xs-3">
+                        <input class="search-input" type="text" placeholder="Search">
+                        <i class="fa fa-search path-icon-1"></i>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="fourd-row-win">
+                    <div class="col-xs-9 ">
+                        <div class="row main-folders">
+
+                            <div class="search-container">
+                                
+                                <b>리버리지</b>(River Ridge)
+
+                                <hr>
+
+                                <p><img src="./img/ripng.png" width="200" height="100" style="margin-right: 5px;" ></p>
+                                
+                                <p><b>River Ridge: 역사와 현대가 공존하는 도시</b></p>
+                                <p><b>인구</b>&nbsp;&nbsp;&nbsp;&nbsp;20-22 000 (estimated)</p>
+                                <p><b>확립</b>&nbsp;&nbsp;&nbsp;&nbsp;1778</p>
+                                <p><b>국가</b>&nbsp;&nbsp;&nbsp;&nbsp;United States of America</p>
+                
+                            </div>
+
+                            <hr>
+                             <p>River Ridge는 Babylon Gardens 근처에 위치한 도시로, 다양한 배경과 특징을 가진 곳입니다.</p>
+                             <p>이 도시는 상징적인 랜드마크로 가득한 도심 지역부터 산업적인 인프라에 이르기까지, 다채로운 풍경을 자랑합니다.</p>
+                             <p>도시의 역사는 그 구조물과 도로 곳곳에 뚜렷이 나타나며, 1778년에 강 옆에 설립된 이후로 낚시를 즐기는 사람들이 살기 좋은 곳으로 알려져 있습니다.</p>
+                             <p>&nbsp;</p>
+                             <p>River Ridge는 인구가 약 20,000에서 22,000명으로 추정되며, 도시의 규모와 인구 덕분에 다양한 공공 서비스를 제공하고 있습니다.</p>
+                             <p>주요 병원, 교도소가 딸린 광대한 경찰서, 여러 개의 대형 소방서 등이 그 예입니다.</p>
+                             <p>도시의 외곽, 특히 서쪽 부분에는 주유소, 잡화점, 쇠고기 가공업체가 위치한 소규모 상업 지역이 자리 잡고 있습니다.</p>
+                             <p>&nbsp;</p>
+                             <p>River Ridge에서 Three-Squares Mall로 가는 길은 강을 따라 동쪽으로 이어지며, Babylon Gardens와 같은 다른 마을은 차로 꽤 멀리 떨어져 있습니다.</p>
+                             <p>현재 River Ridge에서 Babylon Gardens로 가는 41번 국도는 막혀 있으며, 도로를 봉쇄했습니다.</p>
+                             <p>River Ridge는 이러한 변화에도 불구하고, 여전히 그 역동적인 역사와 현대적인 인프라로 주목받는 도시로 남아 있습니다.</p>
+                             <p>다양한 자연과 도시적 요소들이 어우러진 이 도시는 앞으로도 그 매력을 유지할 것입니다.</p>
+                            <hr>
+
+                            <details open>
+                                <p>현재 Three-Squares Mall은 10월 6일에 발생한 █████-███████ 사건 이후 국지적인 팬데믹으로 인해 주방위군과 미군에 의해 봉쇄된 상태입니다.</p>
+                                <p>임박한 위기를 예상한 미군은 신속하게 군사 개입을 시작하였고, 울타리를 세우고 요새화된 초소를 설치하여 도로를 봉쇄했습니다.</p>
+                                <p>이로 인해 현재 River Ridge에서 Babylon Gardens로 가는 41번 국도는 막혀 있으며, Three-Squares Mall은 배제구역으로 설정되어 접근이 제한된 상태입니다.</p>
+                            </details>
+                
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fived-row-win"></div>
+            </div>
+            <div class="resizer" onmousedown="initDrag(event, '34')"></div>
+        </div>
+
+        <!--끝-->
 
     <!-- 사진칸 에러  -->
     <div class="clearfix"></div>
@@ -2850,781 +2948,782 @@ i.fa.fa-times:hover {
     </footer>
     </div>
     <script>var myWindowFade = document.getElementById('start-window-fade'),
-    myWindow = document.getElementById('window'),
-    videoOverlay = document.getElementById('video-overlay'),
-    noteOverlay = document.getElementById('note-overlay'),
-    computerOverlay = document.getElementById('overlay-computer'),
-    imageOverlay = document.getElementById('image-overlay'),
-    aboutOverlay = document.getElementById('about-overlay'),
-    trashWindow = document.getElementById('trash-window');
-
-function resizeWindows() {
-    myWindowFade.style.width = window.innerWidth + "px";
-    myWindowFade.style.height = window.innerHeight + "px";
-    myWindow.style.width = window.innerWidth + "px";
-    myWindow.style.height = window.innerHeight + "px";
-}
-
-resizeWindows(); // 초기 설정
-window.onresize = resizeWindows; // 창 크기 변경 시 설정
-
-var myVar = setInterval(myTimer, 1000);
-
-function myTimer() {
-    var date = new Date();
-    document.getElementById("time").textContent = date.toLocaleTimeString();
-}
-
-function showTimer() {
-    'use strict';
-    var myDiv = document.getElementById("history"),
-        date = new Date(),
-        year = date.getUTCFullYear(),
-        month = date.getUTCMonth() + 1, // 월은 0부터 시작하므로 +1
-        day = date.getUTCDate();
-
-    if (month < 10) {
-        month = '0' + month;
-    }
-    if (day < 10) {
-        day = '0' + day;
-    }
-    myDiv.textContent = year + '/' + month + '/' + day;
-}
-
-showTimer(); // 초기 설정
-
-var d = new Date();
-var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-document.getElementById("day").innerHTML = days[d.getDay()];
-document.getElementById("number-day").innerHTML = d.getUTCDate();
-
-document.getElementById('strat-win').onclick = function () {
-    'use strict';
-    if (document.getElementById('start-window-fade').style.opacity <= .1) {
-        fadeInByMe(document.getElementById('start-window-fade'));
-        fadeInByMe(document.getElementById('start-window'));
-    } else if (document.getElementById('start-window-fade').style.opacity >= 1) {
-        fadeOutByMe(document.getElementById('start-window-fade'));
-        fadeOutByMe(document.getElementById('start-window'));
-    }
-};
-
-document.getElementById('start-window-fade').onclick = function () {
-    'use strict';
-    fadeOutByMe(document.getElementById('start-window-fade'));
-    fadeOutByMe(document.getElementById('start-window'));
-};
-
-document.getElementById('close-all').onclick = function () {
-    if (document.getElementById('start-window-fade').style.opacity >= 1) {
-        fadeOutByMe(document.getElementById('start-window-fade'));
-        fadeOutByMe(document.getElementById('start-window'));
-    }
-    if (computerOverlay.style.transform == "scale(1)") {
-        computerOverlay.style.transform = "scale(0)";
-        document.getElementById('a1').style.borderBottom = '2px solid #76b9ed';
-    }
-    if (imageOverlay.style.transform == "scale(1)") {
-        imageOverlay.style.transform = "scale(0)";
-        document.getElementById('a2').style.borderBottom = '2px solid #76b9ed';
-    }
-    if (videoOverlay.style.transform == "scale(1)") {
-        videoOverlay.style.transform = "scale(0)";
-        document.getElementById('a3').style.borderBottom = '2px solid #76b9ed';
-    }
-    if (noteOverlay.style.transform == "scale(1)") {
-        noteOverlay.style.transform = "scale(0)";
-        document.getElementById('a4').style.borderBottom = '2px solid #76b9ed';
-    }
-    if (aboutOverlay.style.transform == "scale(1)") {
-        aboutOverlay.style.transform = "scale(0)";
-        document.getElementById('a5').style.borderBottom = '2px solid #76b9ed';
-    }
-    if (trashWindow.style.transform == "scale(1)") {
-        trashWindow.style.transform = "scale(0)";
-    }
-};
-
-function fadeOutByMe(element) {
-    'use strict';
-    var opacity = 1,
-        timer = setInterval(function () {
-            if (element) {
-                if (opacity <= .1) {
-                    clearInterval(timer);
-                    element.style.display = 'none';
-                    document.getElementById('container-start').classList.remove('activecontainer');
-                }
-                element.style.opacity = opacity;
-                opacity -= 0.1;
-            } else {
-                clearInterval(timer);
-                console.error('Element not found in fadeOutByMe');
-            }
-        }, 50);
-}
-
-function fadeInByMe(element) {
-    'use strict';
-    var opacity = 0.1,
-        timer = setInterval(function () {
-            if (element) {
-                if (opacity >= 1) {
-                    clearInterval(timer);
-                }
-                if (opacity >= .5) {
-                    document.getElementById('container-start').classList.add('activecontainer');
-                }
-                element.style.opacity = opacity;
-                opacity += 0.1;
-            } else {
-                clearInterval(timer);
-                console.error('Element not found in fadeInByMe');
-            }
-        }, 50);
-    element.style.display = 'block';
-}
-
-let clickedOverlay = null;
-let zIndexCounter = 1; // z-index 값 관리
-
-function toggleOverlay(dataId) {
-    // 특정 data-id 값을 가진 오버레이만 열기
-    var selectedOverlay = document.querySelector('.overlay-computer[data-id="' + dataId + '"]');
-    if (selectedOverlay) {
-        selectedOverlay.style.transform = "scale(1)";
-        selectedOverlay.style.display = "block";  // 오버레이를 보이게 설정
-
-        // 오버레이의 position과 z-index 설정
-        selectedOverlay.style.position = "absolute";  // 오버레이 요소에 position 설정
-        zIndexCounter++; // z-index 값을 증가시켜 가장 높은 값으로 설정
-        selectedOverlay.style.zIndex = zIndexCounter;
-        
-
-        // 오버레이를 최상단에 배치
-        zIndexCounter++; // z-index 값을 증가시켜 가장 높은 값으로 설정
-        selectedOverlay.style.zIndex = zIndexCounter;
-
-        // 클릭된 오버레이 업데이트
-        clickedOverlay = selectedOverlay;
-        console.log(`최근 클릭된 오버레이: data-id=${dataId}`);
-    }
-}
-
-
-
-
-
-function opencom() {
-    if (computerOverlay) {
-        computerOverlay.style.transform = "scale(1)";
-        const a1Element = document.getElementById('a1');
-        if (a1Element) {
-            a1Element.style.display = "block";
-        } else {
-            console.error('Element #a1 not found');
-        }
-    } else {
-        console.error('Element #overlay-computer not found');
-    }
-}
-
-function closecom(dataId) {
-    var overlayToClose = document.querySelector('.overlay-computer[data-id="' + dataId + '"]');
-    if (overlayToClose) {
-        overlayToClose.style.transform = "scale(0)";
-    } else {
-        console.error('Overlay with data-id ' + dataId + ' not found');
-    }
-}
-
-const a1Element = document.getElementById('a1');
-if (a1Element) {
-    a1Element.style.display = "none";
-} else {
-    console.error('Element #a1 not found');
-}
-
-function closeopencom() {
-    computerOverlay.style.transform = "scale(0)";
-    document.getElementById('a1').style.display = "block";
-    document.getElementById('a1').style.borderBottom = '2px solid #76b9ed';
-}
-
-document.getElementById('a1').onclick = function () {
-    if (computerOverlay.style.transform == "scale(1)") {
-        computerOverlay.style.transform = "scale(0)";
-        this.style.borderBottom = '2px solid #76b9ed';
-    } else {
-        computerOverlay.style.transform = "scale(1)";
-        this.style.border = 'none';
-    }
-};
-
-function openimg() {
-    imageOverlay.style.transform = "scale(1)";
-    document.getElementById('a2').style.display = "block";
-}
-
-function closeimg() {
-    imageOverlay.style.transform = "scale(0)";
-    document.getElementById('a2').style.display = "none";
-}
-
-document.getElementById('a2').onclick = function () {
-    if (imageOverlay.style.transform == "scale(1)") {
-        imageOverlay.style.transform = "scale(0)";
-        this.style.borderBottom = '2px solid #76b9ed';
-    } else {
-        imageOverlay.style.transform = "scale(1)";
-        this.style.border = 'none';
-    }
-};
-
-function openvid() {
-    videoOverlay.style.transform = "scale(1)";
-    document.getElementById('a3').style.display = "block";
-}
-
-function closevid() {
-    videoOverlay.style.transform = "scale(0)";
-    document.getElementById('a3').style.display = "none";
-}
-
-document.getElementById('a3').onclick = function () {
-    if (videoOverlay.style.transform == "scale(1)") {
-        videoOverlay.style.transform = "scale(0)";
-        this.style.borderBottom = '2px solid #76b9ed';
-    } else {
-        videoOverlay.style.transform = "scale(1)";
-        this.style.border = 'none';
-    }
-};
-
-function opennote() {
-    noteOverlay.style.transform = "scale(1)";
-    document.getElementById('a4').style.display = "block";
-}
-
-function closenote() {
-    noteOverlay.style.transform = "scale(0)";
-    document.getElementById('a4').style.display = "none";
-}
-
-document.getElementById('a4').onclick = function () {
-    if (noteOverlay.style.transform == "scale(1)") {
-        noteOverlay.style.transform = "scale(0)";
-        this.style.borderBottom = '2px solid #76b9ed';
-    } else {
-        noteOverlay.style.transform = "scale(1)";
-        this.style.border = 'none';
-    }
-};
-
-function openabout() {
-    aboutOverlay.style.transform = "scale(1)";
-    document.getElementById('a5').style.display = "block";
-}
-
-function closeabout() {
-    aboutOverlay.style.transform = "scale(0)";
-    document.getElementById('a5').style.display = "none";
-}
-
-document.getElementById('a5').onclick = function () {
-    if (aboutOverlay.style.transform == "scale(1)") {
-        aboutOverlay.style.transform = "scale(0)";
-        this.style.borderBottom = '2px solid #76b9ed';
-    } else {
-        aboutOverlay.style.transform = "scale(1)";
-        this.style.border = 'none';
-    }
-};
-
-///////////////////////
-
-// 전역 범위에 initDrag 함수 정의
-var startX, startY, startWidth, startHeight;
-var currentOverlay = null;
-
-function initDrag(e, dataId) {
-    currentOverlay = document.querySelector('.overlay-computer[data-id="' + dataId + '"]');
-
-    if (!currentOverlay) return;
-
-    startX = e.clientX;
-    startY = e.clientY;
-    startWidth = parseInt(document.defaultView.getComputedStyle(currentOverlay).width, 10);
-    startHeight = parseInt(document.defaultView.getComputedStyle(currentOverlay).height, 10);
-    
-    document.documentElement.addEventListener('mousemove', doDrag, false);
-    document.documentElement.addEventListener('mouseup', stopDrag, false);
-}
-
-function doDrag(e) {
-    if (!currentOverlay) return;
-
-    currentOverlay.style.width = (startWidth + e.clientX - startX) + 'px';
-    currentOverlay.style.height = (startHeight + e.clientY - startY) + 'px';
-}
-
-function stopDrag() {
-    document.documentElement.removeEventListener('mousemove', doDrag, false);
-    document.documentElement.removeEventListener('mouseup', stopDrag, false);
-    currentOverlay = null;  // 드래그 종료 후 초기화
-}
-
-function initializeDragEvents(dataId) {
-    var overlay = document.querySelector('.overlay-computer[data-id="' + dataId + '"]');
-    var handle = overlay.querySelector('.fluid-container');
-    var isDown = false;
-    var offset = [0, 0];
-    var mousePosition;
-
-    if (overlay) {
-        // 드래그 시작 시 오버레이를 최상단에 배치
-        zIndexCounter++;
-        overlay.style.zIndex = zIndexCounter;
-    }
-
-    // 드래그 핸들을 통한 이동 기능
-    handle.addEventListener('mousedown', function (e) {
-        isDown = true;
-        offset = [
-            overlay.offsetLeft - e.clientX,
-            overlay.offsetTop - e.clientY
-        ];
-        e.preventDefault();
-    }, true);
-
-    document.addEventListener('mouseup', function () {
-        isDown = false;
-    }, true);
-
-    document.addEventListener('mousemove', function (event) {
-        event.preventDefault();
-        if (isDown) {
-            mousePosition = {
-                x: event.clientX,
-                y: event.clientY
-            };
-            overlay.style.left = (mousePosition.x + offset[0]) + 'px';
-            overlay.style.top = (mousePosition.y + offset[1]) + 'px';
-        }
-    }, true);
-
-    // 스크롤 시 리사이저 위치 조정
-    overlay.onscroll = function () {
-        var resizer = overlay.querySelector('.resizer');
-        resizer.style.bottom = (0 - overlay.scrollTop) + "px";
-        resizer.style.right = 0;
-    };
-}
-
-
-
-
-///////////////////////////////
-
-
-function uperCom(dataId) {
-    var overlay = document.querySelector('.overlay-computer[data-id="' + dataId + '"]');
-    var upercam = document.getElementById('upercam' + dataId);
-    var returncam = document.getElementById('returncam' + dataId);
-    if (overlay && returncam && upercam) {
-        overlay.style.width = "100%";
-        overlay.style.height = "100%";
-        overlay.style.top = "0";
-        overlay.style.left = "0";
-        upercam.style.display = 'none';
-        returncam.style.display = 'inline';
-    }
-}
-
-function returnCom(dataId) {
-    var overlay = document.querySelector('.overlay-computer[data-id="' + dataId + '"]');
-    var upercam = document.getElementById('upercam' + dataId);
-    var returncam = document.getElementById('returncam' + dataId);
-    if (overlay && returncam && upercam) {
-        overlay.style.width = "70%";
-        overlay.style.height = "60%";
-        overlay.style.top = "20%";
-        overlay.style.left = "15%";
-        upercam.style.display = 'inline';
-        returncam.style.display = 'none';
-    }
-}
-
-function powerOff() {
-    fadeOutByMe(myWindow);
-}
-
-$(document).ready(function(){
-    $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-        console.log('New tab activated!');
-    });
-});
-
-
-function openvid() {
-    var videoOverlay = document.getElementById('video-overlay');
-    if (videoOverlay) {
-        videoOverlay.style.transform = "scale(1)";
-        document.getElementById('a3').style.display = "block";
-    } else {
-        console.error('video-overlay element not found');
-    }
-}
-
-document.querySelectorAll('.image-overlay').forEach(overlay => {
-    const imgElement = overlay.querySelector('img'); // 이미지 요소를 찾습니다.
-    let scale = 1; // 기본 확대/축소 배율
-
-    overlay.addEventListener('wheel', function(event) {
-        event.preventDefault(); // 기본 스크롤 동작 방지
-        scale += event.deltaY * -0.001; // 스크롤 방향에 따라 확대 또는 축소
-        scale = Math.min(Math.max(.125, scale), 4); // 최소 및 최대 확대/축소 제한
-        imgElement.style.transform = `scale(${scale})`; // 이미지에 확대/축소 적용
-    });
-});
-
-document.querySelector('.second-row-img img').addEventListener('wheel', function(event) {
-    event.preventDefault(); // 기본 스크롤 동작 방지
-    var scaleIncrement = 0.1;
-    var currentScale = parseFloat(this.style.transform.replace(/scale\(([^)]+)\)/, '$1')) || 1; // 현재 scale 값 추출
-
-    if (event.deltaY < 0) { // 스크롤을 위로 올릴 때, 확대
-        currentScale += scaleIncrement;
-    } else { // 스크롤을 아래로 내릴 때, 축소
-        currentScale -= scaleIncrement;
-        if (currentScale < 0.1) currentScale = 0.1; // 최소 scale 제한
-    }
-
-    this.style.transform = `scale(${currentScale})`; // 새로운 scale 값 적용
-});
-
-function openImageOverlay(dataId) {
-    var overlay = document.getElementById('image-overlay-' + dataId);
-    if (overlay) {
-        overlay.style.transform = "scale(1)";
-    } else {
-        console.error('Image overlay with data-id ' + dataId + ' not found');
-    }
-}
-
-function closeImageOverlay(dataId) {
-    var overlay = document.getElementById('image-overlay-' + dataId);
-    if (overlay) {
-        overlay.style.transform = "scale(0)";
-    } else {
-        console.error('Image overlay with data-id ' + dataId + ' not found');
-    }
-}
-
-// 추가된 코드 부분
-function openTrash() {
-    var trashOverlay = document.querySelector('.overlay-computer[data-id="3"]');
-    if (trashOverlay) {
-        trashOverlay.style.transform = "scale(1)";
-    } else {
-        console.error('Trash overlay not found');
-    }
-}
-
-function openppt() {
-    var trashOverlay = document.querySelector('.overlay-computer[data-id="4"]');
-    if (trashOverlay) {
-        trashOverlay.style.transform = "scale(1)";
-    } else {
-        console.error('PPT overlay not found');
-    }
-}
-
-function teamppt() {
-    var trashOverlay = document.querySelector('.overlay-computer[data-id="5"]');
-    if (trashOverlay) {
-        trashOverlay.style.transform = "scale(1)";
-    } else {
-        console.error('Team PPT overlay not found');
-    }
-}
-
-function minippt() {
-    var trashOverlay = document.querySelector('.overlay-computer[data-id="6"]');
-    if (trashOverlay) {
-        trashOverlay.style.transform = "scale(1)";
-    } else {
-        console.error('Mini PPT overlay not found');
-    }
-}
-
-function openeresume() {
-    var trashOverlay = document.querySelector('.overlay-computer[data-id="7"]');
-    if (trashOverlay) {
-        trashOverlay.style.transform = "scale(1)";
-    } else {
-        console.error('Resume overlay not found');
-    }
-}
-
-function closeWindow(id) {
-    // 특정 data-id를 가진 요소를 찾아 스타일을 변경하여 숨김 처리
-    var element = document.querySelector('.overlay-computer[data-id="' + id + '"]');
-    if (element) {
-        element.style.display = 'none';
-    }
-}
-
-
-
-document.querySelectorAll('.image-overlay').forEach(overlay => {
-    const imgElement = overlay.querySelector('img'); // 이미지 요소를 찾습니다.
-    let isDragging = false;
-    let startX, startY, initialX, initialY;
+      myWindow = document.getElementById('window'),
+      videoOverlay = document.getElementById('video-overlay'),
+      noteOverlay = document.getElementById('note-overlay'),
+      computerOverlay = document.getElementById('overlay-computer'),
+      imageOverlay = document.getElementById('image-overlay'),
+      aboutOverlay = document.getElementById('about-overlay'),
+      trashWindow = document.getElementById('trash-window');
+  
+  function resizeWindows() {
+      myWindowFade.style.width = window.innerWidth + "px";
+      myWindowFade.style.height = window.innerHeight + "px";
+      myWindow.style.width = window.innerWidth + "px";
+      myWindow.style.height = window.innerHeight + "px";
+  }
+  
+  resizeWindows(); // 초기 설정
+  window.onresize = resizeWindows; // 창 크기 변경 시 설정
+  
+  var myVar = setInterval(myTimer, 1000);
+  
+  function myTimer() {
+      var date = new Date();
+      document.getElementById("time").textContent = date.toLocaleTimeString();
+  }
+  
+  function showTimer() {
+      'use strict';
+      var myDiv = document.getElementById("history"),
+          date = new Date(),
+          year = date.getUTCFullYear(),
+          month = date.getUTCMonth() + 1, // 월은 0부터 시작하므로 +1
+          day = date.getUTCDate();
+  
+      if (month < 10) {
+          month = '0' + month;
+      }
+      if (day < 10) {
+          day = '0' + day;
+      }
+      myDiv.textContent = year + '/' + month + '/' + day;
+  }
+  
+  showTimer(); // 초기 설정
+  
+  var d = new Date();
+  var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  document.getElementById("day").innerHTML = days[d.getDay()];
+  document.getElementById("number-day").innerHTML = d.getUTCDate();
+  
+  document.getElementById('strat-win').onclick = function () {
+      'use strict';
+      if (document.getElementById('start-window-fade').style.opacity <= .1) {
+          fadeInByMe(document.getElementById('start-window-fade'));
+          fadeInByMe(document.getElementById('start-window'));
+      } else if (document.getElementById('start-window-fade').style.opacity >= 1) {
+          fadeOutByMe(document.getElementById('start-window-fade'));
+          fadeOutByMe(document.getElementById('start-window'));
+      }
+  };
+  
+  document.getElementById('start-window-fade').onclick = function () {
+      'use strict';
+      fadeOutByMe(document.getElementById('start-window-fade'));
+      fadeOutByMe(document.getElementById('start-window'));
+  };
+  
+  document.getElementById('close-all').onclick = function () {
+      if (document.getElementById('start-window-fade').style.opacity >= 1) {
+          fadeOutByMe(document.getElementById('start-window-fade'));
+          fadeOutByMe(document.getElementById('start-window'));
+      }
+      if (computerOverlay.style.transform == "scale(1)") {
+          computerOverlay.style.transform = "scale(0)";
+          document.getElementById('a1').style.borderBottom = '2px solid #76b9ed';
+      }
+      if (imageOverlay.style.transform == "scale(1)") {
+          imageOverlay.style.transform = "scale(0)";
+          document.getElementById('a2').style.borderBottom = '2px solid #76b9ed';
+      }
+      if (videoOverlay.style.transform == "scale(1)") {
+          videoOverlay.style.transform = "scale(0)";
+          document.getElementById('a3').style.borderBottom = '2px solid #76b9ed';
+      }
+      if (noteOverlay.style.transform == "scale(1)") {
+          noteOverlay.style.transform = "scale(0)";
+          document.getElementById('a4').style.borderBottom = '2px solid #76b9ed';
+      }
+      if (aboutOverlay.style.transform == "scale(1)") {
+          aboutOverlay.style.transform = "scale(0)";
+          document.getElementById('a5').style.borderBottom = '2px solid #76b9ed';
+      }
+      if (trashWindow.style.transform == "scale(1)") {
+          trashWindow.style.transform = "scale(0)";
+      }
+  };
+  
+  function fadeOutByMe(element) {
+      'use strict';
+      var opacity = 1,
+          timer = setInterval(function () {
+              if (element) {
+                  if (opacity <= .1) {
+                      clearInterval(timer);
+                      element.style.display = 'none';
+                      document.getElementById('container-start').classList.remove('activecontainer');
+                  }
+                  element.style.opacity = opacity;
+                  opacity -= 0.1;
+              } else {
+                  clearInterval(timer);
+                  console.error('Element not found in fadeOutByMe');
+              }
+          }, 50);
+  }
+  
+  function fadeInByMe(element) {
+      'use strict';
+      var opacity = 0.1,
+          timer = setInterval(function () {
+              if (element) {
+                  if (opacity >= 1) {
+                      clearInterval(timer);
+                  }
+                  if (opacity >= .5) {
+                      document.getElementById('container-start').classList.add('activecontainer');
+                  }
+                  element.style.opacity = opacity;
+                  opacity += 0.1;
+              } else {
+                  clearInterval(timer);
+                  console.error('Element not found in fadeInByMe');
+              }
+          }, 50);
+      element.style.display = 'block';
+  }
+  
+  let clickedOverlay = null;
+  let zIndexCounter = 1; // z-index 값 관리
+  
+  function toggleOverlay(dataId) {
+      // 특정 data-id 값을 가진 오버레이만 열기
+      var selectedOverlay = document.querySelector('.overlay-computer[data-id="' + dataId + '"]');
+      if (selectedOverlay) {
+          selectedOverlay.style.transform = "scale(1)";
+          selectedOverlay.style.display = "block";  // 오버레이를 보이게 설정
+  
+          // 오버레이의 position과 z-index 설정
+          selectedOverlay.style.position = "absolute";  // 오버레이 요소에 position 설정
+          zIndexCounter++; // z-index 값을 증가시켜 가장 높은 값으로 설정
+          selectedOverlay.style.zIndex = zIndexCounter;
+          
+  
+          // 오버레이를 최상단에 배치
+          zIndexCounter++; // z-index 값을 증가시켜 가장 높은 값으로 설정
+          selectedOverlay.style.zIndex = zIndexCounter;
+  
+          // 클릭된 오버레이 업데이트
+          clickedOverlay = selectedOverlay;
+          console.log(`최근 클릭된 오버레이: data-id=${dataId}`);
+      }
+  }
   
   
-    // 드래그 시작
-    imgElement.addEventListener('mousedown', function(event) {
-        isDragging = true;
-        startX = event.clientX;
-        startY = event.clientY;
-        initialX = parseInt(window.getComputedStyle(imgElement).left, 10) || 0;
-        initialY = parseInt(window.getComputedStyle(imgElement).top, 10) || 0;
-        imgElement.style.cursor = 'grabbing';
-        event.preventDefault(); // 기본 동작 방지 (예: 텍스트 선택)
-    });
   
-    // 드래그 중
-    document.addEventListener('mousemove', function(event) {
-        if (isDragging) {
-            let currentX = event.clientX;
-            let currentY = event.clientY;
-            let deltaX = currentX - startX;
-            let deltaY = currentY - startY;
   
-            imgElement.style.left = (initialX + deltaX) + 'px';
-            imgElement.style.top = (initialY + deltaY) + 'px';
-        }
-    });
   
-    // 드래그 종료
-    document.addEventListener('mouseup', function() {
-        if (isDragging) {
-            isDragging = false;
-            imgElement.style.cursor = 'grab';
-        }
-    });
+  function opencom() {
+      if (computerOverlay) {
+          computerOverlay.style.transform = "scale(1)";
+          const a1Element = document.getElementById('a1');
+          if (a1Element) {
+              a1Element.style.display = "block";
+          } else {
+              console.error('Element #a1 not found');
+          }
+      } else {
+          console.error('Element #overlay-computer not found');
+      }
+  }
   
-    // 초기 상태에서 커서 스타일 설정
-    imgElement.style.cursor = 'grab';
+  function closecom(dataId) {
+      var overlayToClose = document.querySelector('.overlay-computer[data-id="' + dataId + '"]');
+      if (overlayToClose) {
+          overlayToClose.style.transform = "scale(0)";
+      } else {
+          console.error('Overlay with data-id ' + dataId + ' not found');
+      }
+  }
+  
+  const a1Element = document.getElementById('a1');
+  if (a1Element) {
+      a1Element.style.display = "none";
+  } else {
+      console.error('Element #a1 not found');
+  }
+  
+  function closeopencom() {
+      computerOverlay.style.transform = "scale(0)";
+      document.getElementById('a1').style.display = "block";
+      document.getElementById('a1').style.borderBottom = '2px solid #76b9ed';
+  }
+  
+  document.getElementById('a1').onclick = function () {
+      if (computerOverlay.style.transform == "scale(1)") {
+          computerOverlay.style.transform = "scale(0)";
+          this.style.borderBottom = '2px solid #76b9ed';
+      } else {
+          computerOverlay.style.transform = "scale(1)";
+          this.style.border = 'none';
+      }
+  };
+  
+  function openimg() {
+      imageOverlay.style.transform = "scale(1)";
+      document.getElementById('a2').style.display = "block";
+  }
+  
+  function closeimg() {
+      imageOverlay.style.transform = "scale(0)";
+      document.getElementById('a2').style.display = "none";
+  }
+  
+  document.getElementById('a2').onclick = function () {
+      if (imageOverlay.style.transform == "scale(1)") {
+          imageOverlay.style.transform = "scale(0)";
+          this.style.borderBottom = '2px solid #76b9ed';
+      } else {
+          imageOverlay.style.transform = "scale(1)";
+          this.style.border = 'none';
+      }
+  };
+  
+  function openvid() {
+      videoOverlay.style.transform = "scale(1)";
+      document.getElementById('a3').style.display = "block";
+  }
+  
+  function closevid() {
+      videoOverlay.style.transform = "scale(0)";
+      document.getElementById('a3').style.display = "none";
+  }
+  
+  document.getElementById('a3').onclick = function () {
+      if (videoOverlay.style.transform == "scale(1)") {
+          videoOverlay.style.transform = "scale(0)";
+          this.style.borderBottom = '2px solid #76b9ed';
+      } else {
+          videoOverlay.style.transform = "scale(1)";
+          this.style.border = 'none';
+      }
+  };
+  
+  function opennote() {
+      noteOverlay.style.transform = "scale(1)";
+      document.getElementById('a4').style.display = "block";
+  }
+  
+  function closenote() {
+      noteOverlay.style.transform = "scale(0)";
+      document.getElementById('a4').style.display = "none";
+  }
+  
+  document.getElementById('a4').onclick = function () {
+      if (noteOverlay.style.transform == "scale(1)") {
+          noteOverlay.style.transform = "scale(0)";
+          this.style.borderBottom = '2px solid #76b9ed';
+      } else {
+          noteOverlay.style.transform = "scale(1)";
+          this.style.border = 'none';
+      }
+  };
+  
+  function openabout() {
+      aboutOverlay.style.transform = "scale(1)";
+      document.getElementById('a5').style.display = "block";
+  }
+  
+  function closeabout() {
+      aboutOverlay.style.transform = "scale(0)";
+      document.getElementById('a5').style.display = "none";
+  }
+  
+  document.getElementById('a5').onclick = function () {
+      if (aboutOverlay.style.transform == "scale(1)") {
+          aboutOverlay.style.transform = "scale(0)";
+          this.style.borderBottom = '2px solid #76b9ed';
+      } else {
+          aboutOverlay.style.transform = "scale(1)";
+          this.style.border = 'none';
+      }
+  };
+  
+  ///////////////////////
+  
+  // 전역 범위에 initDrag 함수 정의
+  var startX, startY, startWidth, startHeight;
+  var currentOverlay = null;
+  
+  function initDrag(e, dataId) {
+      currentOverlay = document.querySelector('.overlay-computer[data-id="' + dataId + '"]');
+  
+      if (!currentOverlay) return;
+  
+      startX = e.clientX;
+      startY = e.clientY;
+      startWidth = parseInt(document.defaultView.getComputedStyle(currentOverlay).width, 10);
+      startHeight = parseInt(document.defaultView.getComputedStyle(currentOverlay).height, 10);
+      
+      document.documentElement.addEventListener('mousemove', doDrag, false);
+      document.documentElement.addEventListener('mouseup', stopDrag, false);
+  }
+  
+  function doDrag(e) {
+      if (!currentOverlay) return;
+  
+      currentOverlay.style.width = (startWidth + e.clientX - startX) + 'px';
+      currentOverlay.style.height = (startHeight + e.clientY - startY) + 'px';
+  }
+  
+  function stopDrag() {
+      document.documentElement.removeEventListener('mousemove', doDrag, false);
+      document.documentElement.removeEventListener('mouseup', stopDrag, false);
+      currentOverlay = null;  // 드래그 종료 후 초기화
+  }
+  
+  function initializeDragEvents(dataId) {
+      var overlay = document.querySelector('.overlay-computer[data-id="' + dataId + '"]');
+      var handle = overlay.querySelector('.fluid-container');
+      var isDown = false;
+      var offset = [0, 0];
+      var mousePosition;
+  
+      if (overlay) {
+          // 드래그 시작 시 오버레이를 최상단에 배치
+          zIndexCounter++;
+          overlay.style.zIndex = zIndexCounter;
+      }
+  
+      // 드래그 핸들을 통한 이동 기능
+      handle.addEventListener('mousedown', function (e) {
+          isDown = true;
+          offset = [
+              overlay.offsetLeft - e.clientX,
+              overlay.offsetTop - e.clientY
+          ];
+          e.preventDefault();
+      }, true);
+  
+      document.addEventListener('mouseup', function () {
+          isDown = false;
+      }, true);
+  
+      document.addEventListener('mousemove', function (event) {
+          event.preventDefault();
+          if (isDown) {
+              mousePosition = {
+                  x: event.clientX,
+                  y: event.clientY
+              };
+              overlay.style.left = (mousePosition.x + offset[0]) + 'px';
+              overlay.style.top = (mousePosition.y + offset[1]) + 'px';
+          }
+      }, true);
+  
+      // 스크롤 시 리사이저 위치 조정
+      overlay.onscroll = function () {
+          var resizer = overlay.querySelector('.resizer');
+          resizer.style.bottom = (0 - overlay.scrollTop) + "px";
+          resizer.style.right = 0;
+      };
+  }
+  
+  
+  
+  
+  ///////////////////////////////
+  
+  
+  function uperCom(dataId) {
+      var overlay = document.querySelector('.overlay-computer[data-id="' + dataId + '"]');
+      var upercam = document.getElementById('upercam' + dataId);
+      var returncam = document.getElementById('returncam' + dataId);
+      if (overlay && returncam && upercam) {
+          overlay.style.width = "100%";
+          overlay.style.height = "100%";
+          overlay.style.top = "0";
+          overlay.style.left = "0";
+          upercam.style.display = 'none';
+          returncam.style.display = 'inline';
+      }
+  }
+  
+  function returnCom(dataId) {
+      var overlay = document.querySelector('.overlay-computer[data-id="' + dataId + '"]');
+      var upercam = document.getElementById('upercam' + dataId);
+      var returncam = document.getElementById('returncam' + dataId);
+      if (overlay && returncam && upercam) {
+          overlay.style.width = "70%";
+          overlay.style.height = "60%";
+          overlay.style.top = "20%";
+          overlay.style.left = "15%";
+          upercam.style.display = 'inline';
+          returncam.style.display = 'none';
+      }
+  }
+  
+  function powerOff() {
+      fadeOutByMe(myWindow);
+  }
+  
+  $(document).ready(function(){
+      $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+          console.log('New tab activated!');
+      });
   });
-
-  function openhyenjang() {
-    window.location.href = 'hyenjang.html';
+  
+  
+  function openvid() {
+      var videoOverlay = document.getElementById('video-overlay');
+      if (videoOverlay) {
+          videoOverlay.style.transform = "scale(1)";
+          document.getElementById('a3').style.display = "block";
+      } else {
+          console.error('video-overlay element not found');
+      }
   }
-
-  function opentikitaka() {
-    window.location.href = 'tikitaka.html';
+  
+  document.querySelectorAll('.image-overlay').forEach(overlay => {
+      const imgElement = overlay.querySelector('img'); // 이미지 요소를 찾습니다.
+      let scale = 1; // 기본 확대/축소 배율
+  
+      overlay.addEventListener('wheel', function(event) {
+          event.preventDefault(); // 기본 스크롤 동작 방지
+          scale += event.deltaY * -0.001; // 스크롤 방향에 따라 확대 또는 축소
+          scale = Math.min(Math.max(.125, scale), 4); // 최소 및 최대 확대/축소 제한
+          imgElement.style.transform = `scale(${scale})`; // 이미지에 확대/축소 적용
+      });
+  });
+  
+  document.querySelector('.second-row-img img').addEventListener('wheel', function(event) {
+      event.preventDefault(); // 기본 스크롤 동작 방지
+      var scaleIncrement = 0.1;
+      var currentScale = parseFloat(this.style.transform.replace(/scale\(([^)]+)\)/, '$1')) || 1; // 현재 scale 값 추출
+  
+      if (event.deltaY < 0) { // 스크롤을 위로 올릴 때, 확대
+          currentScale += scaleIncrement;
+      } else { // 스크롤을 아래로 내릴 때, 축소
+          currentScale -= scaleIncrement;
+          if (currentScale < 0.1) currentScale = 0.1; // 최소 scale 제한
+      }
+  
+      this.style.transform = `scale(${currentScale})`; // 새로운 scale 값 적용
+  });
+  
+  function openImageOverlay(dataId) {
+      var overlay = document.getElementById('image-overlay-' + dataId);
+      if (overlay) {
+          overlay.style.transform = "scale(1)";
+      } else {
+          console.error('Image overlay with data-id ' + dataId + ' not found');
+      }
   }
-
-  //////////////////////////////////////////////////
-// selectedWords 배열을 전역 변수로 선언하고 빈 배열로 초기화
-var selectedWords = [];
-
-// 단어 추가하기
-function addWord(word) {
-    if (!Array.isArray(selectedWords)) {
-        selectedWords = [];
-    }
-    if (!selectedWords.includes(word)) {
-        selectedWords.push(word);
-        document.getElementById('searchBar').value = selectedWords.join(' + ');
-    }
-}
-
-// 검색 기능
-function searchBooks() {
-    if (!Array.isArray(selectedWords) || selectedWords.length === 0) {
-        alert("검색할 단어를 선택해주세요.");
-        return;
-    }
-
-    // 검색어를 data-id로 변환
-    let searchQuery = selectedWords.join(' + '); // 입력 순서 그대로 유지
-
-    // 예시로 검색어를 특정 data-id와 매핑하는 방법
-    let dataId = mapSearchQueryToDataId(searchQuery);
-
-    if (dataId) {
-        // data-id 값을 사용하여 해당 오버레이를 표시
-        toggleOverlay(dataId);
-    } else {
-        alert("해당하는 결과가 없습니다.");
-    }
-}
-
-// 검색어를 data-id로 매핑하는 함수
-function mapSearchQueryToDataId(searchQuery) {
-    // 예시 매핑 (여기서는 임의로 매핑 설정)
-    const mapping = {
-        "Hope of the Pridelands": "33", // 예: Three-Squares Mall  30번
-        "특별한 책": "32", // 예: Three-Squares Mall  30번
-        "책": "31", // 예: Three-Squares Mall  30번
-        "Three-Squares Mall": "30", // 예: Three-Squares Mall  30번 
-        "가 + 나 + 다": "10", // 예: "가 + 나 + 다" 검색 시 data-id="10"으로 이동
-        "가 + 나": "2",       // 예: "가 + 나" 검색 시 data-id="2"으로 이동
-        "가": "1"             // 예: "가" 검색 시 data-id="1"으로 이동
-    };
-    return mapping[searchQuery];
-}
-
-// 검색창 초기화 함수
-function clearSearchBar() {
-    selectedWords = []; // 선택된 단어 초기화
-    document.getElementById('searchBar').value = ''; // 검색창 초기화
-}
-
-
-// 쿠키에서 단어 가져오기
-function getCookie(name) {
-    let cookieArr = document.cookie.split(";");
+  
+  function closeImageOverlay(dataId) {
+      var overlay = document.getElementById('image-overlay-' + dataId);
+      if (overlay) {
+          overlay.style.transform = "scale(0)";
+      } else {
+          console.error('Image overlay with data-id ' + dataId + ' not found');
+      }
+  }
+  
+  // 추가된 코드 부분
+  function openTrash() {
+      var trashOverlay = document.querySelector('.overlay-computer[data-id="3"]');
+      if (trashOverlay) {
+          trashOverlay.style.transform = "scale(1)";
+      } else {
+          console.error('Trash overlay not found');
+      }
+  }
+  
+  function openppt() {
+      var trashOverlay = document.querySelector('.overlay-computer[data-id="4"]');
+      if (trashOverlay) {
+          trashOverlay.style.transform = "scale(1)";
+      } else {
+          console.error('PPT overlay not found');
+      }
+  }
+  
+  function teamppt() {
+      var trashOverlay = document.querySelector('.overlay-computer[data-id="5"]');
+      if (trashOverlay) {
+          trashOverlay.style.transform = "scale(1)";
+      } else {
+          console.error('Team PPT overlay not found');
+      }
+  }
+  
+  function minippt() {
+      var trashOverlay = document.querySelector('.overlay-computer[data-id="6"]');
+      if (trashOverlay) {
+          trashOverlay.style.transform = "scale(1)";
+      } else {
+          console.error('Mini PPT overlay not found');
+      }
+  }
+  
+  function openeresume() {
+      var trashOverlay = document.querySelector('.overlay-computer[data-id="7"]');
+      if (trashOverlay) {
+          trashOverlay.style.transform = "scale(1)";
+      } else {
+          console.error('Resume overlay not found');
+      }
+  }
+  
+  function closeWindow(id) {
+      // 특정 data-id를 가진 요소를 찾아 스타일을 변경하여 숨김 처리
+      var element = document.querySelector('.overlay-computer[data-id="' + id + '"]');
+      if (element) {
+          element.style.display = 'none';
+      }
+  }
+  
+  
+  
+  document.querySelectorAll('.image-overlay').forEach(overlay => {
+      const imgElement = overlay.querySelector('img'); // 이미지 요소를 찾습니다.
+      let isDragging = false;
+      let startX, startY, initialX, initialY;
     
-    for (let i = 0; i < cookieArr.length; i++) {
-        let cookiePair = cookieArr[i].split("=");
-        
-        if (name === cookiePair[0].trim()) {
-            return decodeURIComponent(cookiePair[1]);
-        }
-    }
-    return null;
-}
-
-// 쿠키에 단어 저장하기
-function saveToCookie(word) {
-    let savedWords = getCookie('savedWords');
     
-    if (savedWords) {
-        savedWords = savedWords.split(',');
-    } else {
-        savedWords = [];
-    }
-
-    if (!savedWords.includes(word)) {
-        savedWords.push(word);
-        document.cookie = "savedWords=" + encodeURIComponent(savedWords.join(',')) + "; path=/";
-        createButtons(); // 버튼 재생성
-    }
-}
-
-// 재생성 버튼이 호출하는 함수 (검색창 업데이트 없이 버튼만 재생성)
-function recreateButtons() {
-    createButtons(); // 동적으로 버튼 생성
-}
-
-// 쿠키에 저장된 단어로 버튼 만들기
-function createButtons() {
-    const buttonContainer = document.getElementById('dynamicButtons');
-    if (!buttonContainer) {
-        console.error("Button container not found");
-        return;
-    }
+      // 드래그 시작
+      imgElement.addEventListener('mousedown', function(event) {
+          isDragging = true;
+          startX = event.clientX;
+          startY = event.clientY;
+          initialX = parseInt(window.getComputedStyle(imgElement).left, 10) || 0;
+          initialY = parseInt(window.getComputedStyle(imgElement).top, 10) || 0;
+          imgElement.style.cursor = 'grabbing';
+          event.preventDefault(); // 기본 동작 방지 (예: 텍스트 선택)
+      });
     
-    buttonContainer.innerHTML = "";  // 기존 버튼 초기화
-    let savedWords = getCookie('savedWords');
+      // 드래그 중
+      document.addEventListener('mousemove', function(event) {
+          if (isDragging) {
+              let currentX = event.clientX;
+              let currentY = event.clientY;
+              let deltaX = currentX - startX;
+              let deltaY = currentY - startY;
     
-    if (savedWords) {
-        savedWords.split(',').forEach(word => {
-            let button = document.createElement('button');
-            button.className = "search-button";
-            button.textContent = word;
-            button.onclick = function() {
-                addWord(word);
-            };
-            buttonContainer.appendChild(button);
-        });
+              imgElement.style.left = (initialX + deltaX) + 'px';
+              imgElement.style.top = (initialY + deltaY) + 'px';
+          }
+      });
+    
+      // 드래그 종료
+      document.addEventListener('mouseup', function() {
+          if (isDragging) {
+              isDragging = false;
+              imgElement.style.cursor = 'grab';
+          }
+      });
+    
+      // 초기 상태에서 커서 스타일 설정
+      imgElement.style.cursor = 'grab';
+    });
+  
+    function openhyenjang() {
+      window.location.href = 'hyenjang.html';
     }
-}
-
-/////////////
-
-// 페이지 로드 시 쿠키 확인 및 버튼 생성하기
-window.addEventListener('DOMContentLoaded', (event) => {
-    // 초기 쿠키 확인 및 버튼 생성 (검색창 업데이트 포함)
-    checkAndUpdateButtons(true);
-});
-
-// 재생성 버튼이 호출하는 함수 (검색창 업데이트 없이 텍스트만 재생성)
-function recreateText() {
-    createText(); // 동적으로 텍스트 생성
-}
-
-function createText() {
-    const textContainer = document.getElementById('dynamicTextContainer');
-    if (!textContainer) {
-        console.error("Text container not found");
-        return;
+  
+    function opentikitaka() {
+      window.location.href = 'tikitaka.html';
     }
-    
-    textContainer.innerHTML = "";  // 기존 텍스트 초기화
-    let savedWords = getCookie('savedWords');
-    
-    if (savedWords) {
-        let wordsArray = savedWords.split(',');
-        wordsArray.forEach((word, index) => {
-            let span = document.createElement('span');
-            span.className = "dynamic-text";
-            span.textContent = word;
-            span.onclick = function() {
-                addWord(word);
-            };
-            textContainer.appendChild(span);
-
-            // 쉼표 추가 (마지막 단어 뒤에는 쉼표를 추가하지 않음)
-            if (index < wordsArray.length - 1) {
-                let comma = document.createElement('span');
-                comma.textContent = ", ";
-                textContainer.appendChild(comma);
-            }
-        });
-    }}
-
-    
-
-    function login() {
-        var username = document.getElementById("username").value;
-        var password = document.getElementById("password").value;
-
-        if (username === "TETO" && password === "1234"||
-            username === "teto" && password === "1234"||
-            username === "Teto" && password === "1234"||
-            username === "user" && password === "1234"||
-            username === "Ramble" && password === "1234"||
-            username === "ramble" && password === "1234"||
-            username === "Millerdark" && password === "1234"||
-            username === "millerdark" && password === "1234"||
-            username === "miller" && password === "1234"||
-            username === "Miller" && password === "1234"||
-            username === "rick" && password === "1234"||
-            username === "Rick" && password === "1234"||
-            username === "rickgriffin" && password === "1234"||
-            username === "RickGriffin" && password === "1234"||
-            username === "Rickgriffin" && password === "1234"||
-            username === "jonas" && password === "1234"||
-            username === "Jonas" && password === "1234"||
-            username === "admin" && password === "1234"
-        ) {
-            document.querySelector('.login-container').style.display = 'none';
-            document.getElementById('window').style.display = 'block';
-        } if (getCookie("savedWords") == "true") {
-            // 쿠키가 있으면 자동으로 로그인 처리
-            document.querySelector('.login-container').style.display = 'none';
-            document.getElementById('window').style.display = 'block';
-        }else {
-            document.getElementById('error').style.display = 'block';
-        }
-    }
-</script>
+  
+    //////////////////////////////////////////////////
+  // selectedWords 배열을 전역 변수로 선언하고 빈 배열로 초기화
+  var selectedWords = [];
+  
+  // 단어 추가하기
+  function addWord(word) {
+      if (!Array.isArray(selectedWords)) {
+          selectedWords = [];
+      }
+      if (!selectedWords.includes(word)) {
+          selectedWords.push(word);
+          document.getElementById('searchBar').value = selectedWords.join(' + ');
+      }
+  }
+  
+  // 검색 기능
+  function searchBooks() {
+      if (!Array.isArray(selectedWords) || selectedWords.length === 0) {
+          alert("검색할 단어를 선택해주세요.");
+          return;
+      }
+  
+      // 검색어를 data-id로 변환
+      let searchQuery = selectedWords.join(' + '); // 입력 순서 그대로 유지
+  
+      // 예시로 검색어를 특정 data-id와 매핑하는 방법
+      let dataId = mapSearchQueryToDataId(searchQuery);
+  
+      if (dataId) {
+          // data-id 값을 사용하여 해당 오버레이를 표시
+          toggleOverlay(dataId);
+      } else {
+          alert("해당하는 결과가 없습니다.");
+      }
+  }
+  
+  // 검색어를 data-id로 매핑하는 함수
+  function mapSearchQueryToDataId(searchQuery) {
+      // 예시 매핑 (여기서는 임의로 매핑 설정)
+      const mapping = {
+          "River Ridge": "34", // 예: Three-Squares Mall  30번
+          "Miss Auburn": "33", // 예: Three-Squares Mall  30번
+          "특별한 사인회": "33", // 예: Three-Squares Mall  30번
+          "Hope of the Pridelands": "33", // 예: Three-Squares Mall  30번
+          "특별한 책": "32", // 예: Three-Squares Mall  30번
+          "책": "31", // 예: Three-Squares Mall  30번
+          "Three-Squares Mall": "30", // 예: Three-Squares Mall  30번 
+          "가 + 나 + 다": "10", // 예: "가 + 나 + 다" 검색 시 data-id="10"으로 이동
+          "가 + 나": "2",       // 예: "가 + 나" 검색 시 data-id="2"으로 이동
+          "가": "1"             // 예: "가" 검색 시 data-id="1"으로 이동
+      };
+      return mapping[searchQuery];
+  }
+  
+  // 검색창 초기화 함수
+  function clearSearchBar() {
+      selectedWords = []; // 선택된 단어 초기화
+      document.getElementById('searchBar').value = ''; // 검색창 초기화
+  }
+  
+  
+  // 쿠키에서 단어 가져오기
+  function getCookie(name) {
+      let cookieArr = document.cookie.split(";");
+      
+      for (let i = 0; i < cookieArr.length; i++) {
+          let cookiePair = cookieArr[i].split("=");
+          
+          if (name === cookiePair[0].trim()) {
+              return decodeURIComponent(cookiePair[1]);
+          }
+      }
+      return null;
+  }
+  
+  // 쿠키에 단어 저장하기
+  function saveToCookie(word) {
+      let savedWords = getCookie('savedWords');
+      
+      if (savedWords) {
+          savedWords = savedWords.split(',');
+      } else {
+          savedWords = [];
+      }
+  
+      if (!savedWords.includes(word)) {
+          savedWords.push(word);
+          document.cookie = "savedWords=" + encodeURIComponent(savedWords.join(',')) + "; path=/";
+          createButtons(); // 버튼 재생성
+      }
+  }
+  
+  // 재생성 버튼이 호출하는 함수 (검색창 업데이트 없이 버튼만 재생성)
+  function recreateButtons() {
+      createButtons(); // 동적으로 버튼 생성
+  }
+  
+  // 쿠키에 저장된 단어로 버튼 만들기
+  function createButtons() {
+      const buttonContainer = document.getElementById('dynamicButtons');
+      if (!buttonContainer) {
+          console.error("Button container not found");
+          return;
+      }
+      
+      buttonContainer.innerHTML = "";  // 기존 버튼 초기화
+      let savedWords = getCookie('savedWords');
+      
+      if (savedWords) {
+          savedWords.split(',').forEach(word => {
+              let button = document.createElement('button');
+              button.className = "search-button";
+              button.textContent = word;
+              button.onclick = function() {
+                  addWord(word);
+              };
+              buttonContainer.appendChild(button);
+          });
+      }
+  }
+  
+  /////////////
+  
+  // 페이지 로드 시 쿠키 확인 및 버튼 생성하기
+  window.addEventListener('DOMContentLoaded', (event) => {
+      // 초기 쿠키 확인 및 버튼 생성 (검색창 업데이트 포함)
+      checkAndUpdateButtons(true);
+  });
+  
+  // 재생성 버튼이 호출하는 함수 (검색창 업데이트 없이 텍스트만 재생성)
+  function recreateText() {
+      createText(); // 동적으로 텍스트 생성
+  }
+  
+  function createText() {
+      const textContainer = document.getElementById('dynamicTextContainer');
+      if (!textContainer) {
+          console.error("Text container not found");
+          return;
+      }
+      
+      textContainer.innerHTML = "";  // 기존 텍스트 초기화
+      let savedWords = getCookie('savedWords');
+      
+      if (savedWords) {
+          let wordsArray = savedWords.split(',');
+          wordsArray.forEach((word, index) => {
+              let span = document.createElement('span');
+              span.className = "dynamic-text";
+              span.textContent = word;
+              span.onclick = function() {
+                  addWord(word);
+              };
+              textContainer.appendChild(span);
+  
+              // 쉼표 추가 (마지막 단어 뒤에는 쉼표를 추가하지 않음)
+              if (index < wordsArray.length - 1) {
+                  let comma = document.createElement('span');
+                  comma.textContent = ", ";
+                  textContainer.appendChild(comma);
+              }
+          });
+      }}
+  
+      
+  
+      function login() {
+          var username = document.getElementById("username").value;
+          var password = document.getElementById("password").value;
+  
+          if (username === "TETO" && password === "1234"||
+              username === "teto" && password === "1234"||
+              username === "Teto" && password === "1234"||
+              username === "user" && password === "1234"||
+              username === "Millerdark" && password === "1234"||
+              username === "millerdark" && password === "1234"||
+              username === "miller" && password === "1234"||
+              username === "Miller" && password === "1234"||
+              username === "rick" && password === "1234"||
+              username === "Rick" && password === "1234"||
+              username === "rickgriffin" && password === "1234"||
+              username === "RickGriffin" && password === "1234"||
+              username === "Rickgriffin" && password === "1234"||
+              username === "jonas" && password === "1234"||
+              username === "Jonas" && password === "1234"||
+              username === "admin" && password === "1234"
+          ) {
+              document.querySelector('.login-container').style.display = 'none';
+              document.getElementById('window').style.display = 'block';
+          } if (getCookie("savedWords") == "true") {
+              // 쿠키가 있으면 자동으로 로그인 처리
+              document.querySelector('.login-container').style.display = 'none';
+              document.getElementById('window').style.display = 'block';
+          }else {
+              document.getElementById('error').style.display = 'block';
+          }
+      }
+  </script>
 </body>
 
 </html>
