@@ -825,6 +825,40 @@ i.fa.fa-times:hover {
         <!-- 메인화면 끝 -->
 
 
+            <!-- 메인화면 -->
+
+    <div id="window" class="window">
+        <div class="icon-computer text-center" id="icon-computer" ondblclick="opencom()">
+            <img src="https://mohamedelghandour.github.io/windows-10/img/thumb_14339670430This_PC.png"
+                class="img-responsive">
+            <p>내 PC</p>
+        </div>
+
+        <div class="icon-computer text-center" id="icon-computer" ondblclick="openTrash()">
+            <img src="./img/trash.png" class="img-responsive">
+            <p>휴지통</p>
+        </div>
+
+
+        <div class="icon-computer text-center" id="icon-computer" onclick="toggleOverlay('10')">
+            <img src="./img/app.png" class="img-responsive">
+            <p>Book Barn</p>
+        </div>
+
+        <div class="icon-computer text-center" id="icon-computer" onclick="toggleOverlay('20')">
+            <img src="./img/korean.png" class="img-responsive">
+            <p>메모장</p>
+        </div>
+
+        <div class="icon-computer text-center" id="icon-computer" ondblclick="openImageOverlay('9')">
+            <img src="https://mohamedelghandour.github.io/windows-10/img/chrome1600.png" class="img-responsive">
+            <p>크롬</p>
+        </div>
+
+
+        <!-- 메인화면 끝 -->
+
+
         <!-- 폴더 열기 "1" -->
 
         <div class="overlay-computer" id="overlay-computer" data-id="1" onmousedown="initializeDragEvents('1')">
@@ -1202,16 +1236,7 @@ i.fa.fa-times:hover {
             <div class="resizer" onmousedown="initDrag(event, '1')"></div>
         </div>
 
-        <!--dasdasdsdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddssssssssssssss-->
-
-        <!----------석주------------->
-
-        <!--dasdasdsdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddssssssssssssss-->
-
-
-        <!----------석주------------->
-
-        <!--dasdasdsdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddssssssssssssss-->
+        <!-- 404 에러  -->
 
 
         <div class="image-overlay" id="image-overlay-9" data-id="9">
@@ -1230,8 +1255,7 @@ i.fa.fa-times:hover {
             </div>
         </div>
 
-        <!----------석주------------->
-        <!--dasdasdsdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddssssssssssssss-->
+        <!-- 사진 카톡 vscode -->
 
 
         <div class="image-overlay" id="image-overlay-3" data-id="3">
@@ -1252,7 +1276,7 @@ i.fa.fa-times:hover {
 
 
 
-        <!--dasdasdsdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddssssssssssssss-->
+        <!-- 휴지 고양이 도는거  -->
 
         <div class="image-overlay" id="image-overlay-4" data-id="4">
             <div class="fluid-container">
@@ -1790,9 +1814,138 @@ i.fa.fa-times:hover {
         </div>
 
 
-        <!-- 사진칸  -->
+        <!-- Three-Squares Mall   -->
+
+        
+        <div class="overlay-computer" id="overlay-computer" data-id="30" onmousedown="initializeDragEvents('30')" onclick="recreateText()">
+            <div class="fluid-container">
+                <div class="fluid-container">
+                    <div class="first-row-win" id="first-row-win">
+                        <div class="left">
+                            <img src="./img/28.png" width="17" height="17" style="margin-left: 5px;" alt="파일2">
+                            <!-- 왼쪽 여백 추가 -->
+                            <div class="separator2"></div> <!-- 구분선 1 -->
+                            <img src="./img/2.png" width="17" height="17" style="margin-right: 5px;" alt="복사">
+                            <img src="./img/3.png" width="17" height="17" alt="붙여넣기">
+                            <div class="separator2"></div> <!-- 구분선 2 -->
+                            <span>Three-Squares Mall</span>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <i class="fa fa-window-minimize" onclick="closeopencom('30')"></i>
+                        <i class="fa fa-window-restore" onclick="returnCom('30')" id="returncam30"
+                            style="display:none;"></i>
+                        <i class="fa fa-window-maximize" onclick="uperCom('30')" id="upercam30"></i>
+                        <i class="fa fa-times" onclick="closecom('30')"></i>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+                <div class="third-row-win">
+                    <div class="col-xs-2">
+                        <i class="fa fa-long-arrow-left"></i>
+                        <i class="fa fa-long-arrow-right"></i>
+                        <i class="fa fa-chevron-down"></i>
+                    </div>
+                    <div class="col-xs-7">
+                        <div class="path-input">
+                            <img src="https://cdn-icons-png.flaticon.com/128/300/300221.png" width="15" height="15" style="margin-right: 5px;" alt="복사">
+                            http://localhost:3000/
+                        </div>
+                        <i class="fa fa-repeat path-icon-1"></i>
+                        <i class="path-icon-2">|</i>
+                    </div>
+                    <div class="col-xs-3">
+                        <input class="search-input" type="text" placeholder="Search">
+                        <i class="fa fa-search path-icon-1"></i>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="fourd-row-win">
+                    <div class="col-xs-9 ">
+                        <div class="row main-folders">
+
+                            <div class="search-container">
+                                
+                                <b>Three-Squares Mall</b>(River Ridge)
+
+                                <hr>
+
+                                <p><b>위치</b>&nbsp;&nbsp;&nbsp;&nbsp;River Ridge</p>
+                                <p><b>오픈 날짜</b>&nbsp;&nbsp;&nbsp;&nbsp;1985년 6월 2일</p>
+                                <p><b>매장 및 서비스 수</b>&nbsp;&nbsp;&nbsp;&nbsp;90</p>
+                                <p><b>앵커 테넌트 수</b>&nbsp;&nbsp;&nbsp;&nbsp;3</p>
+                                <p><b>총 소매 매장 면적</b>&nbsp;&nbsp;&nbsp;&nbsp;696,000 제곱 피트 (66,500 m 2 )</p>
+                                <p><b>층수</b>&nbsp;&nbsp;&nbsp;&nbsp;2</p>
+                
+                            </div>
+
+                            <hr>
+
+                             <p><b>Three-Squares Mall: 지역의 중심, 문화와 쇼핑의 만남</b></p>
+                             <p>Three-Squares Mall은 Babylon Gardens 근처에 위치한 지역 사회의 자랑스러운 랜드마크로, 다양한 </p>
+                             <p>상점과 편의 시설을 통해 지역 주민들에게 오랜 사랑을 받아온 쇼핑몰입니다. 1985년 6월 2일에</p>
+                             <p>공식적으로 문을 연 이 쇼핑몰은, 개장 이래 River Ridge와 Babylon Gardens 지역의 쇼핑과 문화적</p>
+                             <p>중심지로 자리 잡았습니다.</p>
+                             <p>&nbsp;</p>
+                             <p>Three-Squares Mall 은 단순히 쇼핑을 즐길 수 있는 공간을 넘어, 다양한 문화적 경험을 제공하는 장소로도 유명합니다.</p>
+                             <p>세 모서리에는 Cineplex'14 극장, Book Barn 도서관, 그리고 The Rich-Milton Hotel이라는 세 개의 앵커 매장이 자리잡고 있으며,</p>
+                             <p>각각의 매장은 독특한 매력과 서비스를 통해 방문객들에게 특별한 경험을 선사합니다.</p>
+                             <p>&nbsp;</p>
+                             <p>특히 Cineplex'14 극장은 몰의 상징적인 존재로, 원래 8개의 스크린을 가진 영화관으로 시작했으나, </p>
+                             <p>이후 광범위한 리노베이션을 거쳐 최첨단 기술을 자랑하는 14개의 스크린을 갖춘 현대적인 영화관으로 재탄생했습니다.</p>
+                             <p>이곳에서는 최신 블록버스터부터 독립 영화까지 다양한 장르의 영화가 상영되며, 몰의 문화적 중심지 역할을 합니다.</p>
+                             <p>&nbsp;</p>
+                             <p>Book Barn 도서관은 조용한 독서 공간을 제공하며, 독특한 커피숍인 Whodathunkit에서는</p>
+                             <p>향긋한 커피와 함께 책을 즐길 수 있는 공간이 마련되어 있습니다.</p>
+                             <p>이 밖에도 몰은 정기적으로 영화 개봉 행사, 지역 예술가들의 전시회,</p>
+                             <p>가족 단위의 참여가 가능한 이벤트 등을 개최하여 커뮤니티의 결속을 다지는 중요한 역할을 하고 있습니다.</p>
+                             <p>&nbsp;</p>
+                             <p>Three-Squares Mall은 가족과 친구들이 함께 시간을 보내기에 완벽한 장소로, 쇼핑, 식사,</p>
+                             <p>문화 활동 등 다양한 경험을 한 곳에서 누릴 수 있는 특별한 공간입니다. 지역 주민들뿐만 아니라,</p>
+                             <p>Babylon Gardens와 River Ridge를 방문하는 이들에게도 필수적인 명소로 자리잡고 있는 이 몰은,</p>
+                             <p>세월이 지나도 변함없이 사랑받는 지역의 중심지로 남을 것입니다.</p>
+
+                            <hr>
+
+                            <details open>
+                                <p>현재 Three-Squares Mall은 최근 시작된 국지적인 팬데믹으로 인해 주방위군과 미군에 의해 봉쇄된 상태입니다.</p>
+                                <p>Three-Squares Mall 주변은 전파 방해, 장벽, 바리케이드로 둘러싸여 있으며, 정부와 군부는 이를 단순한 팬데믹으로 규정하고 있습니다.</p>
+                                <p>군 고위 관계자는 감염이 독감과 유사하며, 감염자들을 혼란에 빠뜨릴 뿐이라고 밝히며, "질병이 퍼지긴 했지만 독감 같은 것이고 </p>
+                                <p>감염자들을 혼란에 빠뜨릴 뿐이지만 만약을 위해서 격리했고 경고사격 이외의 민간인 폭력은 없었다." 라고 발표 했습니다.</p>
+                                <p>이를 둘러싼 논란이 커지며 시위대가 등장하고, 여러 사람들은 "고작 감기 걸리는 것이 무서워서 미국인들의 일자리와 휴가를 뺏어가는 거냐"</p>
+                                <p>화를 내는 시위대까지 나와 정부는 Three-Squares Mall로 통하는 국도까지 차단한 상태입니다.</p>
+                            </details>
 
 
+                                <!-- 
+                                <button id="a" class="search-button" onclick="saveToCookie('Book Barn')">Book Barn</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('Three-Squares Mall')">Three-Squares Mall</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('책')">책</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('특별한 책')">특별한 책</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('Whodathunkit')">Whodathunkit</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('특별 행사')">특별 행사</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('Hope of the Pridelands')">Hope of the Pridelands</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('Miss Auburn')">Miss Auburn</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('특별한 사인회')">특별한 사인회</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('Miss Auburn')">Miss Auburn</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('Babylon Gardens')">Babylon Gardens</button>
+                                <button id="a" class="search-button" onclick="saveToCookie('River Ridge')">River Ridge</button>
+                                 -->
+
+                
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fived-row-win"></div>
+            </div>
+            <div class="resizer" onmousedown="initDrag(event, '30')"></div>
+        </div>
+
+        <!--쓰레기통 윈도우창-->
+
+    <!-- 사진칸 에러  -->
     <div class="clearfix"></div>
     <div class="image-overlay" id="image-overlay">
         <div class="fluid-container">
@@ -1809,6 +1962,8 @@ i.fa.fa-times:hover {
             </div>
         </div>
     </div>
+
+    <!-- 노트  -->
 
     <div class="note-overlay" id="note-overlay">
         <div class="fluid-container">
